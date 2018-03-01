@@ -1,0 +1,1715 @@
+/**
+* @author    JoomlaShine.com http://www.joomlashine.com
+* @copyright Copyright (C) 2008 - 2011 JoomlaShine.com. All rights reserved.
+* @license   JoomlaShine.com Proprietary License
+*/
+/* ============================== DEFAULT HTML ============================== */
+/* =============== DEFAULT HTML - HEADING STYLES =============== */
+h2 {
+	line-height: inherit;
+}
+/* ============================== LAYOUT ============================== */
+/* =============== LAYOUT - GENERAL LAYOUT =============== */
+#jsn-page {
+	transition: width 0.3s ease-in-out;
+	-moz-transition: width 0.3s ease-in-out;
+	-webkit-transition: width 0.3s ease-in-out;
+}
+div#jsn-pos-breadcrumbs.display-mobile,
+div.jsn-modulecontainer.display-mobile,
+div#jsn-pos-breadcrumbs.display-tablet,
+div.jsn-modulecontainer.display-tablet,
+div#jsn-pos-breadcrumbs.display-smartphone,
+div.jsn-modulecontainer.display-smartphone {
+	display: none;
+}
+div#jsn-pos-breadcrumbs.display-desktop,
+div.jsn-modulecontainer.display-desktop {
+	display: block;
+}
+/* =============== LAYOUT - HEADER AREA =============== */
+#jsn-logo #jsn-logo-mobile {
+	display: none;
+}
+#jsn-logo .jsn-topheading {
+	display: none;
+}
+/* =============== LAYOUT - MENU AREA =============== */
+#jsn-menu div.jsn-modulecontainer {
+	float: left;
+	margin:0;
+}
+/* =============== MENU SUFFIX =============== */
+#jsn-pos-mainmenu.jsn-hasMegamenu .jsn-modulecontainer {
+	display: none;
+}
+#jsn-menu #jsn-pos-toolbar div.jsn-modulecontainer {
+	float: left;
+}
+#jsn-menu div.display-inline.jsn-modulecontainer {
+	margin: 5px 10px 0;
+}
+#jsn-menu div.display-dropdown.jsn-modulecontainer .jsn-modulecontent {
+	visibility: hidden;
+	overflow: hidden;
+	position: absolute;
+	top: 38px;
+	right: 0;
+	z-index: 200;
+	background: #4a4a4a;
+	padding: 10px;
+	min-width: 220px;
+}
+#jsn-menu div.display-dropdown.jsn-modulecontainer a,
+#jsn-menu div.display-inline.jsn-modulecontainer a {
+	color: #ccc;
+	text-decoration: underline;
+}
+#jsn-menu div.display-dropdown.jsn-modulecontainer a:hover,
+#jsn-menu div.display-inline.jsn-modulecontainer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+#jsn-menu #jsn-pos-mainmenu div.display-dropdown.jsn-modulecontainer .jsn-modulecontent {
+	left: 0;
+}
+#jsn-menu .jsn-modulecontainer.display-dropdown .jsn-modulecontainer_inner {
+	position: relative;
+}
+#jsn-menu .jsn-modulecontainer[class*="display-"] .jsn-modulecontainer_inner h3.jsn-moduletitle {
+	color: #CCC;
+	text-shadow: none;
+	padding: 0;
+	font-size: 1.1em;
+	cursor: pointer;
+}
+#jsn-menu div.display-dropdown.jsn-modulecontainer .jsn-modulecontainer_inner h3.jsn-moduletitle > span {
+	padding: 11px;
+}
+#jsn-menu #jsn-pos-mainmenu .jsn-modulecontainer.display-dropdown h3.jsn-moduletitle {
+	border-right: 1px solid #404040;
+}
+#jsn-menu #jsn-pos-mainmenu .jsn-modulecontainer.display-dropdown h3.jsn-moduletitle > span {
+	border-right: 1px solid #000000;
+}
+#jsn-menu .jsn-modulecontainer.display-dropdown .jsn-modulecontainer_inner:hover h3.jsn-moduletitle {
+	background: #4a4a4a;
+	color: #FFF;
+}
+#jsn-menu .jsn-modulecontainer.display-dropdown .jsn-modulecontainer_inner:hover .jsn-modulecontent {
+	visibility: visible;
+}
+#jsn-menu div.display-dropdown.menu-richmenu.jsn-modulecontainer .jsn-modulecontent {
+	top: 58px;
+}
+#jsn-menu div.display-dropdown.menu-richmenu.jsn-modulecontainer .jsn-modulecontainer_inner h3.jsn-moduletitle > span {
+	padding: 11px 11px 31px;
+}
+/* =============== MENU - TOOLBAR POSITION =============== */
+#jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul {
+	right: 0;
+}
+div.jsn-modulecontainer ul.menu-mainmenu.menumenu-richmenu .jsn-menudescription {
+	display: block;
+}
+#jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul li.parent > a {
+    background-image: url("../images/icons/icon-arrow-white-rtl.png");
+    background-position: 2% center;
+    background-repeat: no-repeat;
+    padding-left: 16px;
+    padding-right: 12px;
+}
+#jsn-pos-toolbar div.jsn-modulecontainer ul.menu-mainmenu ul li a {
+    border-right: 1px solid #162C40;
+    text-align: right;
+}
+/* =============== LAYOUT - CONTENT AREA =============== */
+.jsn-joomla-30 #jsn-pos-breadcrumbs {
+	padding: 5px 15px;
+}
+#jsn-gotoplink {
+	color: #999;
+	z-index: 999;
+	padding: 8px 12px;
+	display: block;
+	background-color: #000;
+	position: fixed;
+	left: 50%;
+	bottom: 0;
+}
+#jsn-gotoplink:hover {
+	color: #e5e5e5;
+	text-decoration: none;
+	background-color: #333333;
+}
+/* =============== BACKGROUND POSITION =============== */
+#jsn-pos-background {
+    margin: 0 auto;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+	text-align: center;
+    width: 100%;
+    z-index: -100;
+}
+#jsn-pos-background p {
+	margin: 0;
+}
+#jsn-pos-background img {
+	width: 100%;
+}
+/* ============================== TYPOGRAPHY ============================== */
+/* =============== TYPOGRAPHY - TEXT STYLES =============== */
+.text-alert {
+	border-top: 2px solid #FEABAB;
+	border-bottom: 2px solid #FEABAB;
+	background: #FFDFDF url(../images/icons/icon-text-alert.png) no-repeat;
+}
+.text-info {
+	border-top: 2px solid #B7D2F2;
+	border-bottom: 2px solid #B7D2F2;
+	background: #DBE7F8 url(../images/icons/icon-text-info.png) no-repeat;
+}
+.text-download {
+	border-top: 2px solid #DDEDBC;
+	border-bottom: 2px solid #DDEDBC;
+	background: #F2F9E5 url(../images/icons/icon-text-download.png) no-repeat;
+}
+.text-comment {
+	border-top: 2px solid #FEEBAB;
+	border-bottom: 2px solid #FEEBAB;
+	background: #FEF8E1 url(../images/icons/icon-text-comment.png) no-repeat;
+}
+.text-tip {
+	border-top: 2px solid #FEEBAB;
+	border-bottom: 2px solid #FEEBAB;
+	background: #FFFFD5 url(../images/icons/icon-text-tip.png) no-repeat;
+}
+.text-attachment {
+	border-top: 2px solid #e5e5e5;
+	border-bottom: 2px solid #e5e5e5;
+	background: #f2f2f2 url(../images/icons/icon-text-attachment.png) no-repeat;
+}
+.text-video {
+	border-top: 2px solid #e5e5e5;
+	border-bottom: 2px solid #e5e5e5;
+	background: #f2f2f2 url(../images/icons/icon-text-video.png) no-repeat;
+}
+.text-audio {
+	border-top: 2px solid #e5e5e5;
+	border-bottom: 2px solid #e5e5e5;
+	background: #f2f2f2 url(../images/icons/icon-text-audio.png) no-repeat;
+}
+.text-tip,
+.text-info,
+.text-alert,
+.text-audio,
+.text-video,
+.text-comment,
+.text-download,
+.text-attachment {
+	background-position: left center;
+	padding: 0.8em 0.8em 0.8em 5em;
+	min-height: 20px;
+}
+/* =============== TYPOGRAPHY - LINK STYLES =============== */
+/* ----- BUTTON LINK ----- */
+.link-button {
+	cursor: pointer;
+	font-size: 1.1em;
+	padding: 5px 12px;
+	border: 1px solid;
+	display: inline-block;
+	border-color: #595959;
+	text-decoration: none;
+}
+.link-button:hover {
+	border-color: #000;
+}
+a.link-button:hover,
+.link-button a:hover {
+	text-decoration: none;
+}
+a.link-button,
+.link-button a {
+	font-weight: bold;
+	color: #fff !important;
+}
+.link-button.button-light,
+.link-button.button-light a {
+	color: #333 !important;
+}
+.link-button .link-icon {
+	margin: 3px 0;
+	line-height: 16px;
+}
+/* ----- ICON LINK ----- */
+.link-icon {
+	display: inline-block;
+	padding-left: 22px;
+}
+/* ----- EXTENDED LINK ----- */
+.link-icon-ext {
+	display: inline-block;
+	padding-right: 22px;
+	background: url(../images/icons/icons-ext.png) no-repeat right 0;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-aim,
+.link-icon-ext.jsn-icon-ext-aim {
+	background-position: right 0;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-archive,
+.link-icon-ext.jsn-icon-ext-archive {
+	background-position: right -86px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-mobile,
+.link-icon-ext.jsn-icon-ext-mobile {
+	background-position: right -172px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-css,
+.link-icon-ext.jsn-icon-ext-css {
+	background-position: right -258px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-application,
+.link-icon-ext.jsn-icon-ext-application {
+	background-position: right -344px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-doc,
+.link-icon-ext.jsn-icon-ext-doc {
+	background-position: right -430px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-feed,
+.link-icon-ext.jsn-icon-ext-feed {
+	background-position: right -516px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-movie,
+.link-icon-ext.jsn-icon-ext-movie {
+	background-position: right -602px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-flash,
+.link-icon-ext.jsn-icon-ext-flash {
+	background-position: right -688px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-calendar,
+.link-icon-ext.jsn-icon-ext-calendar {
+	background-position: right -774px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-mail,
+.link-icon-ext.jsn-icon-ext-mail {
+	background-position: right -860px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-quicktime,
+.link-icon-ext.jsn-icon-ext-quicktime {
+	background-position: right -946px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-msn,
+.link-icon-ext.jsn-icon-ext-msn {
+	background-position: right -1032px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-music,
+.link-icon-ext.jsn-icon-ext-music {
+	background-position: right -1118px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-pdf,
+.link-icon-ext.jsn-icon-ext-pdf {
+	background-position: right -1204px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-powerpoint,
+.link-icon-ext.jsn-icon-ext-powerpoint {
+	background-position: right -1290px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-skype,
+.link-icon-ext.jsn-icon-ext-skype {
+	background-position: right -1376px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-torrent,
+.link-icon-ext.jsn-icon-ext-torrent {
+	background-position: right -1462px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-font,
+.link-icon-ext.jsn-icon-ext-font {
+	background-position: right -1548px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-text,
+.link-icon-ext.jsn-icon-ext-text {
+	background-position: right -1634px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-vcard,
+.link-icon-ext.jsn-icon-ext-vcard {
+	background-position: right -1720px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-windowsmedia,
+.link-icon-ext.jsn-icon-ext-windowsmedia {
+	background-position: right -1806px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-xls,
+.link-icon-ext.jsn-icon-ext-xls {
+	background-position: right -1892px;
+}
+.jsn-joomla-25 .link-icon-ext.icon-ext-yahoo,
+.link-icon-ext.jsn-icon-ext-yahoo {
+	background-position: right -1978px;
+}
+/* =============== TYPOGRAPHY - TABLE STYLES =============== */
+table.table-style {
+	background: #ffffff;
+	border-collapse: collapse;
+	border-spacing: 0;
+	color: #404040;
+}
+table.table-style caption {
+	padding: 6px 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+table.table-style td,
+table.table-style th {
+	padding: 10px;
+	border-bottom: 1px solid #DEDEDE;
+}
+table.table-style th {
+	text-align: left;
+}
+table.table-style .highlight {
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+table.table-style thead th {
+	font-size: 1.1em;
+	border-top: 6px solid #fff;
+	color: #ffffff;
+}
+table.table-style thead th.highlight {
+	border-top: none;
+}
+table.table-style tbody th,
+table.table-style tbody td {
+	vertical-align: top;
+	text-align: left;
+	border-right: 1px solid #DEDEDE;
+	border-left: 1px solid #DEDEDE;
+}
+table.table-style tbody .highlight {
+	background-color: #999;
+}
+table.table-style tbody tr.odd {
+	background: #f2f2f2;
+}
+table.table-style tbody tr.odd .highlight {
+	background-color: #7E7E7E;
+}
+table.table-style tbody tr:hover th,
+table.table-style tbody tr:hover td {
+	background: #E4E4E4;
+}
+table.table-style tbody tr:hover .highlight {
+	background: #737373;
+}
+table.table-style tfoot {
+	border: 1px solid #DEDEDE;
+}
+table.table-style tfoot th,
+table.table-style tfoot td {
+	border: none;
+	padding: 4px 10px;
+	background-color: #d9d9d9;
+}
+table.table-style tfoot td {
+	text-align: right;
+}
+/* ----- COLOR HEADER TABLE ----- */
+table.style-colorheader thead th.highlight {
+	background-color: #484848;
+}
+/* ----- COLOR STRIPES TABLE ----- */
+table.style-colorstripes {
+	color: #fff;
+}
+table.style-colorstripes thead,
+table.style-colorstripes tfoot {
+	border: none;
+}
+table.style-colorstripes tbody .highlight {
+	color: #333;
+	border-bottom: none;
+	border-top: 1px solid #fff;
+}
+/* ----- GREY STRIPES TABLE ----- */
+table.style-greystripes thead th {
+	background: #404040;
+	border-right: 1px groove #999999;
+}
+/* =============== TYPOGRAPHY - LIST STYLES =============== */
+/* ----- ICON LIST ----- */
+ul.list-icon {
+	list-style-type: none;
+}
+ul.list-icon li {
+	margin: 5px 0;
+	position: relative;
+	padding-left: 20px;
+}
+ul.list-icon li .jsn-listbullet {
+	top: 0;
+	left: 0;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+}
+/* ----- BULLET NUMBER LIST ----- */
+ul.list-number-bullet {
+	list-style: none;
+}
+ul.list-number-bullet li {
+	margin-left: 0;
+	position: relative;
+	padding: 6px 0 6px 36px;
+}
+ul.list-number-bullet li .jsn-listbullet {
+	color: #fff;
+	height: 24px;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	margin: 4px;
+	left: 0;
+	top: -2px;
+	width: 24px;
+	display: block;
+	font-weight: bold;
+	position: absolute;
+}
+/* ----- DIGIT NUMBER LIST ----- */
+ul.list-number-digit {
+	list-style: none;
+}
+ul.list-number-digit li {
+	margin-left: 0;
+	position: relative;
+	padding: 8px 0 8px 42px;
+}
+ul.list-number-digit li .jsn-listbullet {
+	top: 0;
+	left: 0;
+	width: 32px;
+	display: block;
+	font-size: 32px;
+	line-height: 100%;
+	text-align: right;
+	font-weight: bold;
+	position: absolute;
+}
+ul.list-number-digit.digit-blue li .jsn-listbullet {
+	color: #009aca;
+}
+ul.list-number-digit.digit-green li .jsn-listbullet {
+	color: #429e00;
+}
+ul.list-number-digit.digit-grey li .jsn-listbullet {
+	color: #999999;
+}
+ul.list-number-digit.digit-orange li .jsn-listbullet {
+	color: #e66000;
+}
+ul.list-number-digit.digit-red li .jsn-listbullet {
+	color: #bf0000;
+}
+ul.list-number-digit.digit-violet li .jsn-listbullet {
+	color: #9e0084;
+}
+/* ----- HORIZONTAL LIST ----- */
+ul.list-horizontal {
+	margin: 0;
+	list-style: none;
+}
+ul.list-horizontal li {
+	display: inline;
+	margin: 0 .5em;
+}
+/* ----- NOBULLET LIST ----- */
+ul.list-nobullet {
+	margin: 0;
+	list-style: none;
+}
+ul.list-nobullet li {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+}
+/* ============================== MENU ==============================
+/* ----- ICONS MENU STYLE ----- */
+div.jsn-modulecontainer ul.menu-iconmenu li i[class*="fa-"],
+h3.jsn-moduletitle span [class*="fa-"] {
+	display: inline-block;
+	height: 18px;
+	line-height: 18px;
+	margin-right: 5px;
+	font-size: 18px;
+}
+div.jsn-modulecontainer ul.menu-iconmenu li i[class*="fa-"], 
+div.jsn-modulecontainer ul.menu-iconmenu > li > a > span {
+	float: left;
+}
+.jsn-hasIcon > li > a > span,
+.menu-iconmenu li[class*="icon-"] > a > span,
+.menu-iconmenu li[class*="jsn-icon-"] > a > span {
+	padding-left: 24px;
+}
+.jsn-menu-toggle,
+.jsn-menu-mobile-control {
+	display: none;
+}
+div.jsn-modulecontainer ul.menu-mainmenu ul {
+	visibility: hidden;
+	visibility: visible\9;
+	display: none\9;
+}
+div.jsn-modulecontainer ul.menu-mainmenu li:hover > ul {
+	visibility: visible;
+	display: block\9;
+}
+ul.menu-mainmenu.jsn-desktop-on-mobile ul {
+	display: none;
+}
+ul.menu-mainmenu.jsn-desktop-on-mobile li:hover > ul,
+div.jsn-tpl-megamenu-container ul.menu-mainmenu.jsn-desktop-on-mobile li.megamenu:hover .module-content > ul,
+div.jsn-tpl-megamenu-container ul.menu-mainmenu.jsn-desktop-on-mobile li.megamenu:hover .jsn-tpl-megamenu-submenu-container > ul {
+	display: block;
+}
+/* ----- ICON MENU STYLE ----- */
+div.jsn-modulecontainer ul.menu-mainmenu.menu-iconmenu > li > a > span,
+div.jsn-modulecontainer ul.menu-mainmenu.jsn-hasIcon > li > a > span {
+	line-height: 19px;
+}
+div.jsn-modulecontainer ul.menu-mainmenu.menu-richmenu > li > a.jsn-nodescription {
+	padding-bottom: 28px;
+}
+div.jsn-modulecontainer ul.menu-mainmenu.menu-richmenu.menu-iconmenu > li > a span {
+	line-height: 1.5;
+}
+/* ----- ICON MENU STYLE ----- */
+div.jsn-modulecontainer ul.menu-treemenu.menu-iconmenu > li > a > span {
+	line-height: 16px;
+}
+div.jsn-modulecontainer ul.menu-treemenu.menu-richmenu.menu-iconmenu > li > a span {
+	line-height: 1.5;
+}
+/* =============== MENU - MAIN MENU =============== */
+div.jsn-modulecontainer ul.menu-mainmenu ul {
+	left: auto;
+}
+#jsn-menu.jsn-menu-sticky + #jsn-content-top {
+	padding-top: 40px;
+	transition: padding all 0.3s ease 0s;
+	-moz-transition: padding all 0.3s ease 0s;
+	-webkit-transition: padding all 0.3s ease 0s;
+}
+#jsn-menu.jsn-menu-sticky {
+	position: fixed;
+	top: 0;
+	width: 960px;
+}
+/* ========= MENU - FLIPBACK ========= */
+div.jsn-modulecontainer ul.menu-mainmenu li.jsn-submenu-flipback > ul {
+	right: 0;
+}
+div.jsn-modulecontainer ul.menu-mainmenu li.jsn-submenu-flipback a {
+	text-align: right;
+}
+div.jsn-modulecontainer ul.menu-mainmenu li.jsn-submenu-flipback ul li.parent > a {
+    background-image: url("../images/icons/icon-arrow-white-rtl.png");
+    background-position: 2% center;
+}
+div.jsn-modulecontainer ul.menu-mainmenu li.jsn-submenu-flipback ul ul {
+    right: 199px;
+    margin-left: 0;
+}
+/* =============== MENU - TREE MENU =============== */
+/* ----- CURRENT / HOVER STATE ----- */
+div.box-blue ul.menu-treemenu li a:hover,
+div.box-blue ul.menu-treemenu li a.current {
+	background-color: #CFF0FA;
+}
+div.solid-1 ul.menu-treemenu li a:hover,
+div.solid-1 ul.menu-treemenu li a.current {
+	background-color: #FAFACF;
+}
+div.box-green ul.menu-treemenu li a:hover,
+div.box-green ul.menu-treemenu li a.current,
+div.solid-2 ul.menu-treemenu li a:hover,
+div.solid-2 ul.menu-treemenu li a.current {
+	background-color: #E7FACF;
+}
+div.lightbox-1 ul.menu-treemenu li a:hover,
+div.lightbox-1 ul.menu-treemenu li a.current {
+	background-color: #FDFDFD;
+}
+/* =============== MENU - SIDE MENU =============== */
+/* ----- GENERAL ----- */
+div.jsn-modulecontainer ul.menu-sidemenu,
+div.jsn-modulecontainer ul.menu-sidemenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+div.jsn-modulecontainer ul.menu-sidemenu {
+	border-top: 1px dotted #b3b3b3;
+}
+div.jsn-modulecontainer ul.menu-sidemenu li {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+div.jsn-modulecontainer ul.menu-sidemenu li ul {
+	position: absolute;
+	top: 0;
+}
+div.jsn-modulecontainer ul.menu-sidemenu > li {
+	border-bottom: 1px dotted #b3b3b3;
+}
+div.jsn-modulecontainer ul.menu-sidemenu > li.last {
+	border-bottom: none;
+}
+div.jsn-modulecontainer ul.menu-sidemenu li a {
+	display: block;
+	color: #404040;
+	cursor: pointer;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+div[class*="box-"] ul.menu-sidemenu {
+	margin: 5px -15px -15px;
+}
+div.box-grey ul.menu-sidemenu li a,
+div[class*="richbox-"] ul.menu-sidemenu li a {
+	color: #d9d9d9;
+}
+div.jsn-modulecontainer ul.menu-sidemenu > li.parent > a {
+	padding-right: 16px;
+	background: url(../images/icons/icon-arrow-black.png) 98% center no-repeat;
+}
+ul.menu-sidemenu li > a > span {
+	display: block;
+}
+ul.menu-sidemenu > li > a > span {
+	padding-left: 18px;
+	background: url(../images/icons/icons-base.png) left -343px no-repeat;
+}
+div.jsn-modulecontainer ul.menu-sidemenu ul {
+	visibility: hidden;
+	visibility: visible\9;
+	display: none\9;
+}
+div.jsn-modulecontainer ul.menu-sidemenu li:hover > ul {
+	visibility: visible;
+	display: block\9;
+}
+/* ----- ICON MENU STYLE ----- */
+div.jsn-modulecontainer ul.menu-sidemenu.menu-iconmenu > li > a > span {
+	line-height: 16px;
+}
+/* ----- RICH MENU STYLE ----- */
+div.jsn-modulecontainer ul.menu-sidemenu li a span.jsn-menudescription {
+	display: none;
+}
+div.jsn-modulecontainer ul.menu-sidemenu.menu-richmenu li a span.jsn-menudescription {
+	color: #595959;
+	display: block;
+}
+div.box-grey ul.menu-sidemenu.menu-richmenu li a span.jsn-menudescription,
+div[class*="richbox-"] ul.menu-sidemenu.menu-richmenu li a span.jsn-menudescription {
+	color: #B8B8B8;
+}
+div.jsn-modulecontainer ul.menu-sidemenu.menu-richmenu.menu-iconmenu > li > a span {
+	line-height: 1.5;
+}
+/* ---------- 1st LEVEL ---------- */
+div.jsn-modulecontainer ul.menu-sidemenu ul {
+	top: 0;
+	position: absolute;
+}
+div.jsn-modulecontainer ul.menu-sidemenu ul li a {
+	color: #CCC;
+	display: block;
+	cursor: pointer;
+}
+div.jsn-modulecontainer ul.menu-sidemenu ul li.parent > a {
+	padding-right: 16px;
+	background: url(../images/icons/icon-arrow-white.png) 98% center no-repeat;
+}
+div.jsn-modulecontainer ul.menu-sidemenu ul ul {
+	top: 0;
+}
+/* ----- PARENT ITEMS / ADD ARROW TO ITEMS HAVE SUBLEVEL ----- */
+/* 1st LEVEL */
+/* 1st LEVEL - CUSTOM MODULE */
+div.box-grey ul.menu-sidemenu > li.parent > a,
+div[class*="richbox-"] ul.menu-sidemenu > li.parent > a {
+	background: url(../images/icons/icon-arrow-white.png) 98% center no-repeat;
+}
+/* ----- HOVER STATE ----- */
+div.jsn-modulecontainer ul.menu-sidemenu li:hover > a {
+	color: #fff;
+}
+div.jsn-modulecontainer ul.menu-sidemenu > li:hover > a {
+	color: #000;
+	background-color: #d9d9d9;
+}
+/* ----- HOVER STATE IN SPECIFIC MODULE BOXES ----- */
+div.box-blue ul.menu-sidemenu > li:hover > a {
+	background-color: #CFF0FA;
+}
+div.box-yellow ul.menu-sidemenu > li:hover > a,
+div.solid-1 ul.menu-sidemenu > li:hover > a {
+	background-color: #FAFACF;
+}
+div.box-green ul.menu-sidemenu > li:hover > a,
+div.solid-2 ul.menu-sidemenu > li:hover > a {
+	background-color: #E7FACF;
+}
+div.box-grey ul.menu-sidemenu > li:hover > a,
+div.richbox-1 ul.menu-sidemenu > li:hover > a {
+	color: #fff;
+	background-color: #474747;
+}
+div.richbox-2 ul.menu-sidemenu > li:hover > a {
+	color: #fff;
+}
+div.lightbox-1 ul.menu-sidemenu > li:hover > a {
+	background-color: #FDFDFD;
+}
+/* ----- ACTIVE STATE ----- */
+div.jsn-modulecontainer ul.menu-sidemenu li.active > a {
+	color: #FFF;
+	font-weight: bold;
+}
+div.jsn-modulecontainer ul.menu-sidemenu > li.active > a {
+	color: #000;
+	background-color: #d9d9d9;
+}
+/* ----- ACTIVE STATE IN SPECIFIC MODULE BOXES ----- */
+div.box-blue ul.menu-sidemenu > li.active > a {
+	background-color: #CFF0FA;
+}
+div.box-yellow ul.menu-sidemenu > li.active > a,
+div.solid-1 ul.menu-sidemenu > li.active > a {
+	background-color: #FAFACF;
+}
+div.box-green ul.menu-sidemenu > li.active > a,
+div.solid-2 ul.menu-sidemenu > li.active > a {
+	background-color: #E7FACF;
+}
+div.box-grey ul.menu-sidemenu > li.active > a,
+div.richbox-1 ul.menu-sidemenu > li.active > a {
+	color: #fff;
+	background-color: #474747;
+}
+div.richbox-2 ul.menu-sidemenu > li.active > a {
+	color: #fff;
+}
+div.lightbox-1 ul.menu-sidemenu > li.active > a {
+	background-color: #FDFDFD;
+}
+/* ----- ROLLOVER STATE / DISPLAY SUB-MENU OF SELECTED MENU ITEM ----- */
+div.jsn-modulecontainer ul.menu-sidemenu li:hover > ul {
+	left: auto;
+}
+/* =============== MENU - TOP MENU =============== */
+/* ----- ICON MENU STYLE ----- */
+div.jsn-modulecontainer ul.menu-topmenu.menu-iconmenu > li > a {
+	line-height: 16px;
+}
+/* ============================== MOBILE SWITCH ============================== */
+#jsn-mobileswitch {
+	display: none;
+	padding: 10px;
+	float: right;
+}
+#jsn-mobileswitch a {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	vertical-align: text-top;
+	background: url("../images/icons/icons-mobile.png") -16px 0 no-repeat;
+}
+#jsn-desktopswitch {
+	display: none;
+	padding: 11px 10px;
+	float: right;
+}
+#jsn-desktopswitch a {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	vertical-align: text-top;
+	background: url("../images/icons/icons-mobile.png") -32px 0 no-repeat;
+}
+@media only screen and (max-device-width: 960px) {
+	body.jsn-mobile #jsn-desktopswitch {
+		display: block;
+	}
+	body.jsn-desktop #jsn-mobileswitch {
+		display: block;
+	}
+}
+/* ============================== SITE TOOLS ============================== */
+/* =============== SITE TOOLS - GENERAL PRESENTATION =============== */
+#jsn-sitetoolspanel {
+	margin: 5px 3px 0 0;
+}
+/* ----- DROP DOWN ----- */
+ul#jsn-sitetools-menu,
+ul#jsn-sitetools-menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul#jsn-sitetools-menu li {
+	padding: 0;
+	margin: 0;
+	background: url(../images/icons/icons-uni.png) center -1368px no-repeat;
+}
+ul#jsn-sitetools-menu li,
+ul#jsn-sitetools-inline li {
+	position: relative;
+}
+ul#jsn-sitetools-menu > li:hover {
+	background-color: #4a4a4a;
+}
+ul#jsn-sitetools-menu li a,
+ul#jsn-sitetools-inline li a {
+	margin: 0;
+	padding: 0;
+	width: 32px;
+	height: 32px;
+	display: block;
+}
+ul#jsn-sitetools-inline > li > a {
+	display: none;
+}
+ul#jsn-sitetools-menu li ul {
+	z-index: 90;
+	position: absolute;
+	height: 100%;
+	visibility: hidden;
+	visibility: visible\9;
+	display: none\9;
+}
+ul#jsn-sitetools-menu li:hover ul {
+	visibility: visible;
+	display: block\9;
+}
+body.jsn-desktop-on-mobile ul#jsn-sitetools-menu li ul {
+	display: none;
+}
+body.jsn-desktop-on-mobile ul#jsn-sitetools-menu li:hover ul {
+	display: block;
+}
+ul#jsn-sitetools-menu ul li,
+ul#jsn-sitetools-inline ul li {
+	background: none;
+	padding: 0 4px;
+	float: right;
+}
+ul#jsn-sitetools-menu ul li a {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin: 6px 3px 10px;
+	display: inline-block;
+}
+/* ----- INLINE ROW ----- */
+ul#jsn-sitetools-inline {
+	margin: 7px 0;
+	float: left;
+	padding: 0;
+	list-style: none;
+}
+ul#jsn-sitetools-inline ul {
+	float: left;
+	margin: 0;
+}
+ul#jsn-sitetools-inline li {
+	margin: 0;
+	float: left;
+	padding: 0;
+	list-style: none;
+}
+ul#jsn-sitetools-inline ul li a {
+	float: left;
+	width: 22px;
+	height: 20px;
+	display: inline-block;
+}
+/* =============== SITE TOOLS - COLOR SELECTOR =============== */
+#jsn-selector-blue,
+#jsn-selector-red,
+#jsn-selector-green,
+#jsn-selector-violet,
+#jsn-selector-orange,
+#jsn-selector-grey,
+#jsn-selector-blue.current,
+#jsn-selector-blue:hover,
+#jsn-selector-red.current,
+#jsn-selector-red:hover,
+#jsn-selector-green.current,
+#jsn-selector-green:hover,
+#jsn-selector-violet.current,
+#jsn-selector-violet:hover,
+#jsn-selector-orange.current,
+#jsn-selector-orange:hover,
+#jsn-selector-grey.current,
+#jsn-selector-grey:hover {
+	background-image: url(../images/icons/icons-sitetools-color.png);
+	background-repeat: no-repeat;
+}
+#jsn-selector-blue {
+	background-position: -20px 0;
+}
+#jsn-selector-red {
+	background-position: -40px 0;
+}
+#jsn-selector-green {
+	background-position: -60px 0;
+}
+#jsn-selector-violet {
+	background-position: -80px 0;
+}
+#jsn-selector-orange {
+	background-position: -100px 0;
+}
+#jsn-selector-grey {
+	background-position: -120px 0;
+}
+#jsn-selector-blue.current,
+#jsn-selector-blue:hover {
+	background-position: -20px -20px;
+}
+#jsn-selector-red.current,
+#jsn-selector-red:hover {
+	background-position: -40px -20px;
+}
+#jsn-selector-green.current,
+#jsn-selector-green:hover {
+	background-position: -60px -20px;
+}
+#jsn-selector-violet.current,
+#jsn-selector-violet:hover {
+	background-position: -80px -20px;
+}
+#jsn-selector-orange.current,
+#jsn-selector-orange:hover {
+	background-position: -100px -20px;
+}
+#jsn-selector-grey.current,
+#jsn-selector-grey:hover {
+	background-position: -120px -20px;
+}
+/* =============== MODULE STYLES - MODULE BOXES =============== */
+/* =============== MODULE STYLES - MODULE ICONS =============== */
+h3.jsn-moduletitle span [class*="fa-"] {
+	margin-right: 5px;
+}
+/* ----- BOX BLUE STYLE ----- */
+div.box-blue div.jsn-modulecontainer_inner {
+	background: #F5FCFE url(../images/module-styles/box-blue.png) left bottom repeat-x;
+}
+/* ----- BOX GREEN STYLE ----- */
+div.box-green div.jsn-modulecontainer_inner {
+	background: #FAFEF5 url(../images/module-styles/box-green.png) left bottom repeat-x;
+}
+/* ----- SOLIDBOX STYLE ----- */
+div.solid-1 div.jsn-modulecontainer_inner {
+	background: #FEFEF5 url(../images/module-styles/solid-1.png) left bottom repeat-x;
+}
+div.solid-2 div.jsn-modulecontainer_inner {
+	background: #FAFEF5 url(../images/module-styles/solid-2.png) left bottom repeat-x;
+}
+/* ----- LIGHTBOX STYLE ----- */
+div.lightbox-1 div.jsn-modulecontainer_inner {
+	background: #E9E9E9 url(../images/module-styles/lightbox-1.png) left bottom repeat-x;
+}
+#jsn-content-top div[class*="solid-"],
+#jsn-content-top div[class*="solid-"] h3.jsn-moduletitle {
+	color: #000;
+}
+/* =============== MODULE STYLES - MODULE ICONS =============== */
+div[class*="icon-"] h3.jsn-moduletitle span.jsn-moduleicon,
+div[class*="jsn-icon-"] h3.jsn-moduletitle span.jsn-moduleicon {
+	padding-left: 22px;
+}
+/* =============== JOOMLA! EXTENSIONS - COM_CONTACT =============== */
+/* ----- STANDARD CONTACT LAYOUT ----- */
+div.contact .dl-horizontal dd {
+	margin-left: 25px;
+}
+.jsn-joomla-30 div.search .inputbox {
+	width: auto;
+	max-width: 100%;
+}
+button#jform_profile_dob_img.btn {
+	height: 30px;
+}
+/* =============== JOOMLA! EXTENSIONS - MOD_STATISTICS =============== */
+dl.stats-module dt {
+	float: left;
+	width: 65%;
+}
+dl.stats-module dd {
+	margin: 0;
+}
+/* ============================== MISC ============================== */
+.link-icon > i {
+	font-size: 18px;
+	margin-right: 5px;
+}
+/* =============== GENERAL ICON ASSIGNMENT =============== */
+.jsn-hasIcon > li > a > i {
+	content: "";
+	width: 19px;
+	height: 19px;
+	display: inline-block;
+	float: left;
+}
+.jsn-joomla-25 .link-icon[class*="icon-"],
+.jsn-joomla-25 .menu-iconmenu [class*="icon-"] > a > span,
+.jsn-joomla-25 .list-icon[class*="icon-"] li .jsn-listbullet,
+.jsn-joomla-25 [class*="icon-"] h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon[class*="jsn-icon-"],
+.menu-iconmenu [class*="jsn-icon-"] > a > span,
+.list-icon[class*="jsn-icon-"] li .jsn-listbullet,
+[class*="jsn-icon-"] h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i[class*="jsn-icon-"] {
+	background-image: url(../images/icons/icons-uni.png);
+	background-repeat: no-repeat;
+}
+.jsn-joomla-25 .link-icon.icon-article,
+.jsn-joomla-25 .menu-iconmenu .icon-article > a > span,
+.jsn-joomla-25 .list-icon.icon-article li .jsn-listbullet,
+.jsn-joomla-25 .icon-article h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-article,
+.menu-iconmenu .jsn-icon-article > a > span,
+.list-icon.jsn-icon-article li .jsn-listbullet,
+.jsn-icon-article h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-article {
+	background-position: 0 0;
+}
+.jsn-joomla-25 .link-icon.icon-calendar,
+.jsn-joomla-25 .menu-iconmenu .icon-calendar > a > span,
+.jsn-joomla-25 .list-icon.icon-calendar li .jsn-listbullet,
+.jsn-joomla-25 .icon-calendar h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-calendar,
+.menu-iconmenu .jsn-icon-calendar > a > span,
+.list-icon.jsn-icon-calendar li .jsn-listbullet,
+.jsn-icon-calendar h3.jsn-moduletitle span.jsn-moduleicon
+.jsn-hasIcon > li > a > i.jsn-icon-calendar {
+	background-position: 0 -86px;
+}
+.jsn-joomla-25 .link-icon.icon-cart,
+.jsn-joomla-25 .menu-iconmenu .icon-cart > a > span,
+.jsn-joomla-25 .list-icon.icon-cart li .jsn-listbullet,
+.jsn-joomla-25 .icon-cart h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-cart,
+.menu-iconmenu .jsn-icon-cart > a > span,
+.list-icon.jsn-icon-cart li .jsn-listbullet,
+.jsn-icon-cart h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-cart {
+	background-position: 0 -172px;
+}
+.jsn-joomla-25 .link-icon.icon-comment,
+.jsn-joomla-25 .menu-iconmenu .icon-comment > a > span,
+.jsn-joomla-25 .list-icon.icon-comment li .jsn-listbullet,
+.jsn-joomla-25 .icon-comment h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-comment,
+.menu-iconmenu .jsn-icon-comment > a > span,
+.list-icon.jsn-icon-comment li .jsn-listbullet,
+.jsn-icon-comment h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-comment {
+	background-position: 0 -258px;
+}
+.jsn-joomla-25 .link-icon.icon-display,
+.jsn-joomla-25 .menu-iconmenu .icon-display > a > span,
+.jsn-joomla-25 .list-icon.icon-display li .jsn-listbullet,
+.jsn-joomla-25 .icon-display h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-display,
+.menu-iconmenu .jsn-icon-display > a > span,
+.list-icon.jsn-icon-display li .jsn-listbullet,
+.jsn-icon-display h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-display {
+	background-position: 0 -344px;
+}
+.jsn-joomla-25 .link-icon.icon-download,
+.jsn-joomla-25 .menu-iconmenu .icon-download > a > span,
+.jsn-joomla-25 .list-icon.icon-download li .jsn-listbullet,
+.jsn-joomla-25 .icon-download h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-download,
+.menu-iconmenu .jsn-icon-download > a > span,
+.list-icon.jsn-icon-download li .jsn-listbullet,
+.jsn-icon-download h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-download {
+	background-position: 0 -430px;
+}
+.jsn-joomla-25 .link-icon.icon-folder,
+.jsn-joomla-25 .menu-iconmenu .icon-folder > a > span,
+.jsn-joomla-25 .list-icon.icon-folder li .jsn-listbullet,
+.jsn-joomla-25 .icon-folder h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-folder,
+.menu-iconmenu .jsn-icon-folder > a > span,
+.list-icon.jsn-icon-folder li .jsn-listbullet,
+.jsn-icon-folder h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-folder {
+	background-position: 0 -516px;
+}
+.jsn-joomla-25 .link-icon.icon-help,
+.jsn-joomla-25 .menu-iconmenu .icon-help > a > span,
+.jsn-joomla-25 .list-icon.icon-help li .jsn-listbullet,
+.jsn-joomla-25 .icon-help h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-help,
+.menu-iconmenu .jsn-icon-help > a > span,
+.list-icon.jsn-icon-help li .jsn-listbullet,
+.jsn-icon-help h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-help {
+	background-position: 0 -602px;
+}
+.jsn-joomla-25 .link-icon.icon-home,
+.jsn-joomla-25 .menu-iconmenu .icon-home > a > span,
+.jsn-joomla-25 .list-icon.icon-home li .jsn-listbullet,
+.jsn-joomla-25 .icon-home h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-home,
+.menu-iconmenu .jsn-icon-home > a > span,
+.list-icon.jsn-icon-home li .jsn-listbullet,
+.jsn-icon-home h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-home {
+	background-position: 0 -688px;
+}
+.jsn-joomla-25 .link-icon.icon-image,
+.jsn-joomla-25 .menu-iconmenu .icon-image > a > span,
+.jsn-joomla-25 .list-icon.icon-image li .jsn-listbullet,
+.jsn-joomla-25 .icon-image h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-image,
+.menu-iconmenu .jsn-icon-image > a > span,
+.list-icon.jsn-icon-image li .jsn-listbullet,
+.jsn-icon-image h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-image {
+	background-position: 0 -774px;
+}
+.jsn-joomla-25 .link-icon.icon-info,
+.jsn-joomla-25 .menu-iconmenu .icon-info > a > span,
+.jsn-joomla-25 .list-icon.icon-info li .jsn-listbullet,
+.jsn-joomla-25 .icon-info h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-info,
+.menu-iconmenu .jsn-icon-info > a > span,
+.list-icon.jsn-icon-info li .jsn-listbullet,
+.jsn-icon-info h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-info {
+	background-position: 0 -860px;
+}
+.jsn-joomla-25 .link-icon.icon-mail,
+.jsn-joomla-25 .menu-iconmenu .icon-mail > a > span,
+.jsn-joomla-25 .list-icon.icon-mail li .jsn-listbullet,
+.jsn-joomla-25 .icon-mail h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-mail,
+.menu-iconmenu .jsn-icon-mail > a > span,
+.list-icon.jsn-icon-mail li .jsn-listbullet,
+.jsn-icon-mail h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-mail {
+	background-position: 0 -946px;
+}
+.jsn-joomla-25 .link-icon.icon-online,
+.jsn-joomla-25 .menu-iconmenu .icon-online > a > span,
+.jsn-joomla-25 .list-icon.icon-online li .jsn-listbullet,
+.jsn-joomla-25 .icon-online h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-online,
+.menu-iconmenu .jsn-icon-online > a > span,
+.list-icon.jsn-icon-online li .jsn-listbullet,
+.jsn-icon-online h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-online {
+	background-position: 0 -1032px;
+}
+.jsn-joomla-25 .link-icon.icon-rss,
+.jsn-joomla-25 .menu-iconmenu .icon-rss > a > span,
+.jsn-joomla-25 .list-icon.icon-rss li .jsn-listbullet,
+.jsn-joomla-25 .icon-rss h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-rss,
+.menu-iconmenu .jsn-icon-rss > a > span,
+.list-icon.jsn-icon-rss li .jsn-listbullet,
+.jsn-icon-rss h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-rss {
+	background-position: 0 -1118px;
+}
+.jsn-joomla-25 .link-icon.icon-search,
+.jsn-joomla-25 .menu-iconmenu .icon-search > a > span,
+.jsn-joomla-25 .list-icon.icon-search li .jsn-listbullet,
+.jsn-joomla-25 .icon-search h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-search,
+.menu-iconmenu .jsn-icon-search > a > span,
+.list-icon.jsn-icon-search li .jsn-listbullet,
+.jsn-icon-search h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-search {
+	background-position: 0 -1204px;
+}
+.jsn-joomla-25 .link-icon.icon-selection,
+.jsn-joomla-25 .menu-iconmenu .icon-selection > a > span,
+.jsn-joomla-25 .list-icon.icon-selection li .jsn-listbullet,
+.jsn-joomla-25 .icon-selection h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-selection,
+.menu-iconmenu .jsn-icon-selection > a > span,
+.list-icon.jsn-icon-selection li .jsn-listbullet,
+.jsn-icon-selection h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-selection {
+	background-position: 0 -1290px;
+}
+.jsn-joomla-25 .link-icon.icon-setting,
+.jsn-joomla-25 .menu-iconmenu .icon-setting > a > span,
+.jsn-joomla-25 .list-icon.icon-setting li .jsn-listbullet,
+.jsn-joomla-25 .icon-setting h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-setting,
+.menu-iconmenu .jsn-icon-setting > a > span,
+.list-icon.jsn-icon-setting li .jsn-listbullet,
+.jsn-icon-setting h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-settings {
+	background-position: 0 -1376px;
+}
+.jsn-joomla-25 .link-icon.icon-star,
+.jsn-joomla-25 .menu-iconmenu .icon-star > a > span,
+.jsn-joomla-25 .list-icon.icon-star li .jsn-listbullet,
+.jsn-joomla-25 .icon-star h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-star,
+.menu-iconmenu .jsn-icon-star > a > span,
+.list-icon.jsn-icon-star li .jsn-listbullet,
+.jsn-icon-star h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-star {
+	background-position: 0 -1462px;
+}
+.jsn-joomla-25 .link-icon.icon-statistics,
+.jsn-joomla-25 .menu-iconmenu .icon-statistics > a > span,
+.jsn-joomla-25 .list-icon.icon-statistics li .jsn-listbullet,
+.jsn-joomla-25 .icon-statistics h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-statistics,
+.menu-iconmenu .jsn-icon-statistics > a > span,
+.list-icon.jsn-icon-statistics li .jsn-listbullet,
+.jsn-icon-statistics h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-statistics {
+	background-position: 0 -1548px;
+}
+.jsn-joomla-25 .link-icon.icon-user,
+.jsn-joomla-25 .menu-iconmenu .icon-user > a > span,
+.jsn-joomla-25 .list-icon.icon-user li .jsn-listbullet,
+.jsn-joomla-25 .icon-user h3.jsn-moduletitle span.jsn-moduleicon,
+.link-icon.jsn-icon-user,
+.menu-iconmenu .jsn-icon-user > a > span,
+.list-icon.jsn-icon-user li .jsn-listbullet,
+.jsn-icon-user h3.jsn-moduletitle span.jsn-moduleicon,
+.jsn-hasIcon > li > a > i.jsn-icon-user {
+	background-position: 0 -1634px;
+}
+/* ============================== JOOMLA 3.0 CORE COMPONENT LAYOUT ============================== */
+.jsn-joomla-30 .blog-featured .items-leading h2 {
+	padding: 5px 0;
+}
+/* PAGE PAGINATION */
+ul.jsn-pagination li {
+	margin: 5px 0;
+}
+/* ============================== CSS3 EFFECTS ============================== */
+/* ----- READ MORE ----- */
+.readon {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-out;
+	background-image:linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(216,216,216) 100%);
+	background-image:-moz-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(216,216,216) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(255,255,255)),color-stop(1, rgb(216,216,216)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(216,216,216) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(216,216,216) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(216,216,216) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#ffd8d8d8,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#ffd8d8d8,GradientType=0);
+}
+.readon:hover {
+	box-shadow: 0 0 3px #333;
+	-moz-box-shadow: 0 0 3px #333;
+	-webkit-box-shadow: 0 0 3px #333;
+}
+/* ----- GO TOP LINK ----- */
+#jsn-gotoplink {
+	transition: color 0.3s linear, background 0.3s ease-out;
+	-moz-transition: color 0.3s linear, background 0.3s ease-out;
+	-webkit-transition: color 0.3s linear, background 0.3s ease-out;
+}
+/* ----- TYPOGRAPHY STYLE ----- */
+/* TEXT STYLES */
+.text-box {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 0 2px #999;
+	-moz-box-shadow: 0 0 2px #999;
+	-webkit-box-shadow: 0 0 2px #999;
+}
+.text-box-highlight {
+	transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-out;
+}
+.text-box-highlight:hover {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 0 2px #999;
+	-moz-box-shadow: 0 0 2px #999;
+	-webkit-box-shadow: 0 0 2px #999;
+}
+.text-highlight {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+/* LINK STYLES */
+.link-button {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.link-button:hover {
+	box-shadow: 0 0 3px #333;
+	-moz-box-shadow: 0 0 3px #333;
+	-webkit-box-shadow: 0 0 3px #333;
+}
+.link-button,
+.link-button a {
+	transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-out;
+}
+.link-action {
+	transition: color 0.3s linear, background 0.3s ease-out;
+	-moz-transition: color 0.3s linear, background 0.3s ease-out;
+	-webkit-transition: color 0.3s linear, background 0.3s ease-out;
+}
+.link-action:hover {
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+}
+.link-highlight {
+	transition: 0.3s ease-out;
+	-moz-transition: 0.3s ease-out;
+	-webkit-transition: 0.3s ease-out;
+}
+.link-highlight:hover {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0 0 2px #999;
+	-moz-box-shadow: 0 0 2px #999;
+	-webkit-box-shadow: 0 0 2px #999;
+}
+.link-button.button-light,
+.link-button.button-light:hover {
+	border-color: #999999;
+	background-image:linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(216,216,216) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(216,216,216) 100%);
+	background-image:-moz-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(216,216,216) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(255,255,255)),color-stop(1, rgb(216,216,216)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(216,216,216) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(255,255,255) 0%,rgb(216,216,216) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#ffd8d8d8,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffffff,endColorstr=#ffd8d8d8,GradientType=0);
+}
+.link-button.button-dark,
+.link-button.button-dark:hover {
+	background-image:linear-gradient(-90deg,rgb(79,79,79) 0%,rgb(51,51,51) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(79,79,79) 0%,rgb(51,51,51) 100%);
+	background-image:-moz-linear-gradient(-90deg,rgb(79,79,79) 0%,rgb(51,51,51) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(79,79,79)),color-stop(1, rgb(51,51,51)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(79,79,79) 0%,rgb(51,51,51) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(79,79,79) 0%,rgb(51,51,51) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff4f4f4f,endColorstr=#ff333333,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff4f4f4f,endColorstr=#ff333333,GradientType=0);
+}
+.link-button.button-green,
+.link-button.button-green:hover {
+	background-image:linear-gradient(-90deg,rgb(92,134,33) 0%,rgb(72,105,27) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(92,134,33) 0%,rgb(72,105,27) 100%);
+	background-image:-moz-linear-gradient(-90deg,rgb(92,134,33) 0%,rgb(72,105,27) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(92,134,33) 0%,rgb(72,105,27) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(92,134,33)),color-stop(1, rgb(72,105,27)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(92,134,33) 0%,rgb(72,105,27) 100%);
+	background-image:-webkit-linear-gradient(-90deg,rgb(92,134,33) 0%,rgb(72,105,27) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff5c8621,endColorstr=#ff48691b,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff5c8621,endColorstr=#ff48691b,GradientType=0);
+}
+.link-button.button-orange,
+.link-button.button-orange:hover {
+	background-image:linear-gradient(-90deg,rgb(196,112,28) 0%,rgb(160,91,23) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(196,112,28) 0%,rgb(160,91,23) 100%);
+	background-image:-moz-linear-gradient(50% 0% -90deg,rgb(196,112,28) 0%,rgb(160,91,23) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(196,112,28) 0%,rgb(160,91,23) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(196,112,28)),color-stop(1, rgb(160,91,23)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(196,112,28) 0%,rgb(160,91,23) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffc4701c,endColorstr=#ffa05b17,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffc4701c,endColorstr=#ffa05b17,GradientType=0);
+}
+.link-button.button-blue,
+.link-button.button-blue:hover {
+	background-image:linear-gradient(-90deg,rgb(58,119,173) 0%,rgb(44,89,131) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(58,119,173) 0%,rgb(44,89,131) 100%);
+	background-image:-moz-linear-gradient(50% 0% -90deg,rgb(58,119,173) 0%,rgb(44,89,131) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(58,119,173) 0%,rgb(44,89,131) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(58,119,173)),color-stop(1, rgb(44,89,131)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(58,119,173) 0%,rgb(44,89,131) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff3a77ad,endColorstr=#ff2c5983,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff3a77ad,endColorstr=#ff2c5983,GradientType=0);
+}
+.link-button.button-red,
+.link-button.button-red:hover {
+	background-image:linear-gradient(-90deg,rgb(140,35,35) 0%,rgb(112,29,29) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(140,35,35) 0%,rgb(112,29,29) 100%);
+	background-image:-moz-linear-gradient(50% 0% -90deg,rgb(140,35,35) 0%,rgb(112,29,29) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(140,35,35) 0%,rgb(112,29,29) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(140,35,35)),color-stop(1, rgb(112,29,29)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(140,35,35) 0%,rgb(112,29,29) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff8c2323,endColorstr=#ff701d1d,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff8c2323,endColorstr=#ff701d1d,GradientType=0);
+}
+/* TABLE STYLES */
+table.table-style th,
+table.table-style td {
+	transition: background 0.3s ease-out;
+	-moz-transition: background 0.3s ease-out;
+	-webkit-transition: background 0.3s ease-out;
+}
+/* LIST STYLES */
+ul.list-number-bullet li .jsn-listbullet {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+ul.list-number-bullet.bullet-blue li .jsn-listbullet {
+	background-image:linear-gradient(-90deg,rgb(28,107,179) 0%,rgb(51,57,63) 100%);
+	background-image:-moz-linear-gradient(-90deg,rgb(28,107,179) 0%,rgb(51,57,63) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(28,107,179)),color-stop(1, rgb(51,57,63)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(28,107,179) 0%,rgb(51,57,63) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(28,107,179) 0%,rgb(51,57,63) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(28,107,179) 0%,rgb(51,57,63) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff1c6bb3,endColorstr=#ff33393f,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff1c6bb3,endColorstr=#ff33393f,GradientType=0);
+}
+ul.list-number-bullet.bullet-green li .jsn-listbullet {
+	background-image:linear-gradient(-90deg,rgb(66,158,0) 0%,rgb(38,91,0) 100%);
+	background-image:-moz-linear-gradient(-90deg,rgb(66,158,0) 0%,rgb(38,91,0) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(66,158,0)),color-stop(1, rgb(38,91,0)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(66,158,0) 0%,rgb(38,91,0) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(66,158,0) 0%,rgb(38,91,0) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(66,158,0) 0%,rgb(38,91,0) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff429e00,endColorstr=#ff265b00,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff429e00,endColorstr=#ff265b00,GradientType=0);
+}
+ul.list-number-bullet.bullet-grey li .jsn-listbullet {
+	background-image:linear-gradient(-90deg,rgb(133,133,133) 0%,rgb(56,56,56) 100%);
+	background-image:-moz-linear-gradient(-90deg,rgb(133,133,133) 0%,rgb(56,56,56) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(133,133,133)),color-stop(1, rgb(56,56,56)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(133,133,133) 0%,rgb(56,56,56) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(133,133,133) 0%,rgb(56,56,56) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(133,133,133) 0%,rgb(56,56,56) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff858585,endColorstr=#ff383838,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff858585,endColorstr=#ff383838,GradientType=0);
+}
+ul.list-number-bullet.bullet-orange li .jsn-listbullet {
+	background-image:linear-gradient(-90deg,rgb(230,96,0) 0%,rgb(116,50,0) 100%);
+	background-image:-moz-linear-gradient(-90deg,rgb(230,96,0) 0%,rgb(116,50,0) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(230,96,0)),color-stop(1, rgb(116,50,0)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(230,96,0) 0%,rgb(116,50,0) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(230,96,0) 0%,rgb(116,50,0) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(230,96,0) 0%,rgb(116,50,0) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffe66000,endColorstr=#ff743200,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffe66000,endColorstr=#ff743200,GradientType=0);
+}
+ul.list-number-bullet.bullet-red li .jsn-listbullet {
+	background-image:linear-gradient(-90deg,rgb(191,0,0) 0%,rgb(113,0,0) 100%);
+	background-image:-moz-linear-gradient(-90deg,rgb(191,0,0) 0%,rgb(113,0,0) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(191,0,0)),color-stop(1, rgb(113,0,0)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(191,0,0) 0%,rgb(113,0,0) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(191,0,0) 0%,rgb(113,0,0) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(191,0,0) 0%,rgb(113,0,0) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffbf0000,endColorstr=#ff710000,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffbf0000,endColorstr=#ff710000,GradientType=0);
+}
+ul.list-number-bullet.bullet-violet li .jsn-listbullet {
+	background-image:linear-gradient(-90deg,rgb(158,0,132) 0%,rgb(93,0,76) 100%);
+	background-image:-moz-linear-gradient(-90deg,rgb(158,0,132) 0%,rgb(93,0,76) 100%);
+	background-image:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0, rgb(158,0,132)),color-stop(1, rgb(93,0,76)));
+	background-image:-webkit-linear-gradient(-90deg,rgb(158,0,132) 0%,rgb(93,0,76) 100%);
+	background-image:-o-linear-gradient(-90deg,rgb(158,0,132) 0%,rgb(93,0,76) 100%);
+	background-image:-ms-linear-gradient(-90deg,rgb(158,0,132) 0%,rgb(93,0,76) 100%);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff9e0084,endColorstr=#ff5d004c,GradientType=0)";
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff9e0084,endColorstr=#ff5d004c,GradientType=0);
+}
+/* FORM STYLE */
+.inputbox {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	transition: color 0.1s linear, background 0.3s ease-out, border-color 0.3s;
+	-moz-transition: color 0.1s linear, background 0.3s ease-out, border-color 0.3s;
+	-webkit-transition: color 0.1s linear, background 0.3s ease-out, border-color 0.3s;
+}
+#jsn-page .button {
+	background-image: -ms-linear-gradient(top, #999, #777);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#999), to(#777));
+	background-image: -webkit-linear-gradient(top, #999, #777);
+	background-image: -o-linear-gradient(top, #999, #777);
+	background-image: linear-gradient(top, #999, #777);
+	background-image: -moz-linear-gradient(top, #999, #777);
+	background-repeat: repeat-x;
+	border: 1px solid #000;
+	*border: 0;
+	border-color: rgba(0, 0, 0, 0.3) rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4);
+	-webkit-border-radius: 3px;
+	 -moz-border-radius: 3px;
+		  border-radius: 3px;
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#999', endColorstr='#777', GradientType=0);
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+	*zoom: 1;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	 -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+		  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	transition: color 0.1s linear, background 0.3s ease-out;
+	-moz-transition: color 0.1s linear, background 0.3s ease-out;
+	-webkit-transition: color 0.1s linear, background 0.3s ease-out;
+}
+.button:hover,
+.button:active {
+	background-image: -ms-linear-gradient(top, #777, #555);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#777), to(#555));
+	background-image: -webkit-linear-gradient(top, #777, #555);
+	background-image: -o-linear-gradient(top, #777, #555);
+	background-image: linear-gradient(top, #777, #555);
+	background-image: -moz-linear-gradient(top, #777, #555);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#777', endColorstr='#555', GradientType=0);
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+	transition: color 0.1s linear, background 0.3s ease-out, background-position 0.3s;
+	-moz-transition: color 0.1s linear, background 0.3s ease-out, background-position 0.3s;
+	-webkit-transition: color 0.1s linear, background 0.3s ease-out, background-position 0.3s;
+}
+/* ----- MENU STYLES ----- */
+/* GENERAL */
+ul.menu-mainmenu li a,
+ul.menu-sidemenu li a,
+ul.menu-treemenu li a {
+	transition: color 0.3s linear, background 0.3s ease-out;
+	-moz-transition: color 0.3s linear, background 0.3s ease-out;
+	-webkit-transition: color 0.3s linear, background 0.3s ease-out;
+}
+/* MAIN MENU - SIDE MENU */
+ul.menu-mainmenu li ul:not(.jsn-tpl-mm-megamenu-inner ),
+ul.menu-sidemenu li ul:not(.jsn-tpl-mm-megamenu-inner ) {
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+ul.menu-mainmenu li ul,
+ul.menu-sidemenu li ul {
+
+}
+ul.menu-mainmenu li:hover > ul,
+ul.menu-sidemenu li:hover > ul {
+	opacity: 100;
+	filter: alpha(opacity=100);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+/* Fix Hover Event on touch mobile devices */
+@media only screen and (max-width: 960px), (max-device-width: 960px) {
+     ul.menu-mainmenu li ul,
+     ul.menu-sidemenu li ul {
+         transition: none;
+         -moz-transition: none;
+         -webkit-transition: none;
+         -ms-transition: none;
+         -o-transition: none;
+         }
+}
+/* ----- SITE TOOLS ----- */
+ul#jsn-sitetools-menu li ul {
+	opacity: 0;
+	top: 0;
+	right: 0;
+	filter: alpha(opacity=0);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-webkit-transition: all .3s;
+	-moz-transition: all .15s;
+	-o-transition: all .15s;
+	-ms-transition: all .15s;
+	transition: all .15s;
+}
+ul#jsn-sitetools-menu li:hover ul {
+	opacity: 1;
+	right: 32px;
+	filter: alpha(opacity=100);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+ul#jsn-sitetools-menu li,
+#jsn-menu .jsn-modulecontainer.display-dropdown .jsn-modulecontainer_inner h3,
+#jsn-menu div.display-dropdown.jsn-modulecontainer .jsn-modulecontent {
+	transition: background 0.15s ease-out;
+	-moz-transition: background 0.15s ease-out;
+	-webkit-transition: background 0.15s ease-out;
+}
+/* ----- MODULE STYLES ----- */
+div[class*="box-"] div.jsn-modulecontainer_inner,
+div[class*="solid-"] div.jsn-modulecontainer_inner {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0px 0px 4px #666;
+	-moz-box-shadow: 0px 0px 4px #666;
+	-webkit-box-shadow: 0px 0px 4px #666;
+}
+/* ----- FONT STYLES ----- */
+h3.jsn-moduletitle,
+#jsn-content-top div[class*="box-"] h3.jsn-moduletitle,
+#jsn-content-top div[class*="solid-"] h3.jsn-moduletitle,
+.contentheading,
+.componentheading,
+.subheading {
+	text-shadow: 1px 1px 1px #e5e5e5;
+}
+ul.menu-mainmenu > li.active > a,
+div.box-grey h3.jsn-moduletitle,
+div[class*="richbox-"] h3.jsn-moduletitle,
+#jsn-content-top h3.jsn-moduletitle,
+#jsn-content-top div.box-grey h3.jsn-moduletitle,
+#jsn-content-top div[class*="richbox-"] h3.jsn-moduletitle {
+	text-shadow: 1px 1px 1px #000;
+}
+/* ----- OVERRIDE JOOMLA 30 ----- */
+.jsn-joomla-30 .calendar .button {
+	border-radius: none;
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
+}
+/* PAGE PAGINATION */
+ul.jsn-pagination li a,
+ul.jsn-pagination li span {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-image: linear-gradient(to bottom, #FEFEFE 0%, #EAEFF1 100%);
+	background-image: -ms-linear-gradient(top, #FEFEFE 0%, #EAEFF1 100%);
+	background-image: -moz-linear-gradient(top, #FEFEFE 0%, #EAEFF1 100%);
+	background-image: -o-linear-gradient(top, #FEFEFE 0%, #EAEFF1 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FEFEFE), color-stop(1, #EAEFF1));
+	background-image: -webkit-linear-gradient(top, #FEFEFE 0%, #EAEFF1 100%);
+}

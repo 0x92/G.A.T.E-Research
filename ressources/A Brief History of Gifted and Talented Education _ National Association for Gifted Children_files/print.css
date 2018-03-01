@@ -1,0 +1,34 @@
+#header, #navigation, #footer{
+	display:none;
+}
+#headerutility, .pane-print-ui-print-links{
+display:none;
+visibility:hidden;
+}
+a{
+color:#000;
+text-decoration:none;
+}
+body{
+font-family:"Times New Roman", Times, serif;
+}
+.not-front #pagewrapper .layout-responsive-region-body{
+background-image:none;
+border:0;
+font-size:13px;
+height:auto;
+margin:0 0 10px 0;
+padding:0;
+text-align:left;
+}
+ul, .not-front #pagewrapper .layout-responsive-region-body ul{
+
+}
+ul li, .not-front #pagewrapper .layout-responsive-region-body ul li{
+
+}
+#footer{
+border:0px;
+margin:0;
+width:650px;
+}

@@ -1,0 +1,218 @@
+/*
+	Royale: A responsive HTML5 website template by HTML5Templates.com
+	Released for free under the Creative Commons Attribution 3.0 license (html5templates.com/license)
+	Visit http://html5templates.com for more great templates or follow us on Twitter @HTML5T
+*/
+
+/*********************************************************************************/
+/* Desktop (>= 480px)                                                            */
+/*********************************************************************************/
+
+/* Header */
+
+#header {
+	overflow: hidden;
+	min-height: 75px;
+	position: relative;
+}
+
+#header h3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	line-height: 70px;
+	font-size: 2.2em;
+}
+
+#header h3 a {
+	color: #fff;
+	letter-spacing: -2px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#header p {
+	float: left;
+	padding: 0px 0px 0px 100px;
+	line-height: 70px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14pt;
+	font-weight: 200;
+	color: #E7888D;
+}
+
+#header nav {
+	position: absolute;
+	top: 27px;
+	right: 0;
+	font-weight: 200;
+}
+
+#header nav a {
+	color: #FFFFFF;
+	padding: 5px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	margin-left: 40px;
+	outline: 0;
+}
+
+#header nav a:hover {
+	color: #FFFFFF;
+}
+
+#header nav .active {
+	background: #830203;
+	box-shadow: inset 0px 0px 10px 5px rgba(0,0,0,.2);
+	border-radius: 4px;
+	text-decoration: none;
+	font-size: 12pt;
+	color: #FFFFFF;
+}
+
+
+/* Banner */
+
+#banner {
+	overflow: hidden;
+	padding: 0px 0px 40px 0px;
+	border-bottom: solid 1px #ddd;
+}
+
+#banner a img {
+	display: block;
+	width: 100%;
+}
+
+/* Featured Content */
+
+#feature-content {
+	overflow: hidden;
+	padding: 0 0 50px 0;
+	border-bottom: solid 1px #ddd;
+}
+
+#feature-content h2 {
+	padding: 0px 0px 30px 0px;
+	letter-spacing: -2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30pt;
+	font-weight: 200;
+	color: #303030;
+}
+
+#feature-content a img {
+	display: block;
+	width: 100%;
+}
+
+/* Content */
+
+#content {
+	overflow: hidden;
+	padding: 0px 0px 60px 0px;
+	border-bottom: solid 1px #ddd;
+        line-height: 200%;
+}
+
+.two-column #content {
+	padding: 0px 0px 60px 0px;
+}
+
+#content h1, h2 {
+	padding: 10px 0;	
+	text-decoration: none;
+	text-transform: uppercase;	
+	font-size: 60px;
+	font-weight: 200;
+	color: #303030;
+        line-height: 150%;
+}
+
+#content a {
+    color: #0066FF;
+}
+
+.plusobutton {
+    padding: 10px 20px 10px 10px;
+    text-align: right;
+}
+#content .subtitle {
+	padding: 0px 0px 30px 0px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 14pt;
+	font-weight: 300;
+}
+
+/* Splash Content */
+
+#splash {
+	overflow: hidden;
+	padding: 30px 0px 30px 0px;
+	letter-spacing: -3px;
+	line-height: 110%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 34pt;
+	color: #696969
+}
+
+#splash span {
+	color: #000000;
+}
+
+/* Gallery */
+
+#gallery {
+}
+
+#gallery a img {
+	display: block;
+	width: 100%;
+}
+
+/* Sidebar */
+
+#sidebar {
+	padding: 10px 0px 0px 0px;
+}
+
+.column2 #sidebar {
+	padding: 0px;
+}
+
+#sidebar h2 {
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	font-size: 22pt;
+	color: #2A2A2A;
+}
+
+#sidebar .subtitle {
+	padding: 0px 0px 30px 0px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16pt;
+	font-weight: 300;
+	color: #696969;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+/**
+ * @version    4.8.0
+ * @package    AllVideos (plugin)
+ * @author     JoomlaWorks - http://www.joomlaworks.net
+ * @copyright  Copyright (c) 2006 - 2017 JoomlaWorks Ltd. All rights reserved.
+ * @license    GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+ */
+
+/* General */
+.avPlayerWrapper div,
+.avPlayerWrapper iframe,
+.avPlayerWrapper object,
+.avPlayerWrapper embed {outline:0;padding:0;margin:0;}
+
+/* Classic Layout */
+.avPlayerWrapper {display:block;text-align:center;clear:both;}
+.avPlayerWrapper .avPlayerContainer {display:block;padding:0;margin:0 auto;}
+	/* Video container styling only */
+	.avVideo .avPlayerContainer {padding:0;}
+	/* Audio container styling only */
+	.avAudio .avPlayerContainer {}
+.avPlayerWrapper .avPlayerContainer .avPlayerBlock {display:block;padding:0;margin:0;line-height:normal;text-align:center;}
+	.avPlayerWrapper .avPlayerContainer .avPlayerBlock div {text-align:center!important;}
+	.avPlayerWrapper .avPlayerContainer .avPlayerBlock .avDownloadLink {text-align:center;padding:4px;font-size:11px;}
+		.avPlayerWrapper .avPlayerContainer .avPlayerBlock .avDownloadLink a {}
+		.avPlayerWrapper .avPlayerContainer .avPlayerBlock .avDownloadLink a:hover {}
+			.avPlayerWrapper .avPlayerContainer .avPlayerBlock .avDownloadLink a span {}
+			.avPlayerWrapper .avPlayerContainer .avPlayerBlock .avDownloadLink a:hover span {}
+		.avPlayerWrapper .avPlayerContainer .avPlayerBlock .avDownloadLink span.hint {padding-left:4px;color:#999;font-style:italic;}

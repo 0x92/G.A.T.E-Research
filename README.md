@@ -7,5 +7,3 @@ G.A.T.E-Research
 
 Contributors welcome
 ##
-
- 

@@ -1,0 +1,1211 @@
+ @charset "UTF-8";
+
+/* UNESCO Teaching and Learning for a Sustainable Future VERSION 6.0. COPYRIGHT UNESCO 2009. CSS DESIGN BY CLAYTON WHITE */
+
+/*BASE ------------------------------------------------------------*/
+
+html {
+}
+
+body {
+	background-color: #ffffff;
+	margin:0;
+	width: 100%;
+	min-width: 960px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-size: 13px;
+	line-height: 1.4em;
+	color: #1e281e;
+}
+
+/* THEMES -----------------------------------------------------*/
+
+#container {
+	display:block;
+	width:100%;
+	min-width: 1002px;
+	background: url(images/bkgnd_home.jpg) no-repeat 0 0;
+}
+
+#container.theme_a {
+	display:block;
+	width:100%;
+	min-width: 1002px;
+	background: url(images/bkgnd_theme_a.jpg) no-repeat 0 0;
+}
+
+#container.theme_b {
+	display:block;
+	width: 100%;
+	min-width: 1002px;
+	background: url(images/bkgnd_theme_b.jpg) no-repeat 0 0;
+}
+
+#container.theme_c {
+	display:block;
+	width: 100%;
+	min-width: 1002px;
+	background: url(images/bkgnd_theme_c.jpg) no-repeat 0 0;
+}
+
+#container.theme_d {
+	display:block;
+	width: 100%;
+	min-width: 1002px;
+	background: url(images/bkgnd_theme_d.jpg) no-repeat 0 0;
+}
+
+#container.dtt {
+	display:block;
+	width:100%;
+	min-width: 1002px;
+	background: url(images/bkgnd_dtt.jpg) no-repeat 0 0;
+}
+
+#main {
+	position: relative;	
+/*	clear: both;*/
+	width: 840px;
+	padding: 40px 0 0 19px;
+	margin: auto;
+}
+
+
+#main.home {
+	margin-top:60px;
+	background-color:#FFFFFF;
+	padding-top: 1em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+	padding-left: 2em;
+}
+
+#main h1 {
+	padding: 0 0 4px 0;
+	text-transform: uppercase;
+	font-size: large;
+	line-height: 1.125em;
+	}
+
+#main h1.headline {
+	padding: 0 0 4px 0;
+	text-transform: uppercase;
+	font-size:30px;
+	color:#FFFFFF;
+	text-shadow: #111111 1px 1px 8px;
+	}
+
+/* HEADER -----------------------------------------------------------*/
+
+#header_wrap {
+	min-width: 1002px;
+	background: transparent url(images/bg-header-long.png) repeat-y 0 0;
+	border-top: 11px solid #1b1713;
+}
+
+#header {
+	position: relative;
+	width:960px;
+	margin: 0 auto; 
+	padding: 0 0 0 0;
+	min-height: 200px;
+}
+
+#header h1 {
+	background: url(images/tlsf.png) no-repeat;
+	margin: 10px 0 0 25px;
+	padding-top: 25px;
+	padding-left: 200px;
+	text-transform:uppercase;
+	color: #0074d7;
+	z-index:1;
+	height: 150px;
+	position: absolute;
+	line-height:100%;
+	overflow:visible;
+	font-size:300%;
+	}
+	
+#header a.home {
+	position: absolute;
+  	height: 160px;
+  	width: 160px;
+  	top: 0px; 
+	left:0px;
+  	text-decoration: none;
+}
+
+#header a.home i { visibility: hidden; }
+
+#header h2 {
+	padding: 100px 0 0 380px;
+	color: #fffdef;
+	z-index:1;
+	text-transform:lowercase;
+	line-height:250%;
+	font-weight:normal;
+	font-size:140%;
+	}
+		
+#header ul { list-style: none; 
+ }
+ 
+ #plannerheader_wrap {
+	min-width: 1002px;
+	background: #bdd3e8 url(../css/images/planner_banner.jpg) no-repeat 0 0;
+	border-top: 11px solid #1b1713;
+}
+
+
+#plannerheader {
+	position: relative;
+	width:960px;
+	margin: 0 auto; 
+	padding: 0 0 0 0;
+	height: 62px;
+}
+
+ #interactheader_wrap {
+	min-width: 1002px;
+	background-color:#bdd3e8;
+	border-top: 11px solid #1b1713;
+}
+
+
+#interactheader {
+	position: relative;
+	width:960px;
+	margin: 0 auto; 
+	padding: 0 0 0 0;
+	height: 62px;
+}
+
+ /* HOME -------------------------------------------------*/
+ 
+#theme_wrap {
+	position:relative;
+	width:100%;
+	background-color:#FFFFFF;
+	padding:0 1em 1em 1em;
+}
+
+.theme {
+	width: 380px;
+	float: left;
+	margin-right: 40px;
+	padding: 0;
+}
+
+.theme ul {
+	list-style-type:none;
+	margin-left:-20px;
+	padding-right:10px;
+}
+
+.theme li {
+	font-size:small;
+	line-height:1em;
+}
+
+.theme h1 {
+	padding: 0 0 0 0;
+	text-transform: uppercase;
+	font-size:medium;
+	font-weight:normal;
+	line-height:1.125em;	
+	}
+
+/* additional related to display of themes in blocks eg. in popup */
+
+#theme_narrowwrap {
+	position:relative;
+	width:100%;
+	background-color:#FFFFFF;
+	padding:0em;
+}
+
+.themenarrow {
+	width: 220px;
+	float:left;
+	margin-right: 40px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.themenarrow ul {
+	list-style-type:none;
+	margin-left:-20px;
+	padding-right:10px;
+}
+
+.themenarrow li {
+	font-size:small;
+	line-height:1em;
+}
+
+#content_wrap {
+	position:relative;
+	width:100%;
+	background-color:#FFFFFF;
+	padding:1em 2em 2em 2em;
+}
+
+/* POPUPS ------------------------------------------------*/
+
+body.popup {
+	min-width:100px;
+}
+
+body.smallpopup {
+	margin:0;
+	min-width:100px;
+	width:100%;
+}
+
+body.smallpopup div {
+	display:block;
+	width:auto;
+	padding:2em;
+	margin:auto;
+}
+
+#container.popup {
+	background:none;
+	display:block;
+	width:100%;
+	min-width:100px;
+}
+
+#main.popup {
+	width:auto;
+	margin:auto;
+	padding: 2em 4em 2em 4em;
+}
+
+/* BASE --------------------------------------------------*/
+
+strong { 
+	font-weight: bold; 
+}
+
+em { 
+	font-style: italic; 
+}
+
+h2 {
+	font-size:medium;
+	text-transform:uppercase;
+	overflow: visible;
+}
+
+h2.web {
+	background: url(images/icon_web.png) no-repeat 0 10px;
+	overflow: visible;
+	margin-left: -4em;
+	padding-left: 4em;
+	margin-top: -2em;
+	padding-top: 2em;
+}
+
+h3 {
+	font-size:medium;
+	overflow: visible;
+}
+
+h4 {
+	font-size:small;
+	text-transform:uppercase;
+	overflow: visible;
+}
+
+p {
+	padding-bottom: 4px;
+}
+
+p.journal {
+	background: url(images/icon_journal.png) no-repeat 0 10px;
+	overflow: visible;
+	margin-left: -4em;
+	padding-left: 4em;
+	margin-top: -2em;
+	padding-top: 2em;
+/*	line-height:1.5em;*/
+}
+
+p.web {
+	background: url(images/icon_web.png) no-repeat 0 10px;
+	overflow: visible;
+	margin-left: -4em;
+	padding-left: 4em;
+	margin-top: -2em;
+	padding-top: 2em;
+}
+
+p.interact {
+	background: url(images/icon_interact.png) no-repeat 0 10px;
+	overflow: visible;
+	margin-left: -4em;
+	padding-left: 4em;
+	margin-top: -2em;
+	padding-top: 2em;
+}
+
+p.print {
+	background: url(images/icon_print.png) no-repeat 0 10px;
+	overflow: visible;
+	margin-left: -4em;
+	padding-left: 4em;
+	margin-top: -2em;
+	padding-top: 2em;
+}
+
+p.tlsflinkback {
+	background: url(images/icon_tlsf.png) no-repeat 0 10px;
+	overflow: visible;
+	margin-left: -4em;
+	padding-left: 4em;
+	margin-top: -2em;
+	padding-top: 2em;
+}
+
+p.source {
+	font-size: small;
+	padding-bottom: 4px;
+	text-align: right;
+}
+
+ul {
+	margin-left: 10px;
+	list-style:disc;
+	padding-left: 40px;
+}
+
+ul.journal {
+	list-style:none;
+}
+
+ul.home {
+	list-style:none;
+}
+
+ul ul {
+	margin-left: 10px;
+	list-style:circle;
+	padding-left: 40px;
+}
+
+li {
+	padding-bottom: 4px;
+}
+
+dl {
+	padding-left: 40px;
+	}
+
+dt {
+	padding-bottom: 4px;
+	font-weight: bold;
+	}
+
+dd {
+	padding-bottom: 8px;
+	}
+	
+ol {
+	margin-left: 10px;
+}
+
+/* LINKS & TAB NAVIGATION ---------------------------------*/
+
+a { 
+	text-decoration: none; 
+	outline: none; 
+	font-weight: bold;
+}
+
+div.pgnav {
+	padding-top:20px;
+	padding-bottom:20px;
+	display:block;
+}
+
+.pgnav a {
+	font-size:14px;
+	text-transform:uppercase;
+	font-weight:lighter;	
+}
+
+
+.pgnav div.prev {
+	float: left;
+	background: url(images/prev.gif) no-repeat top left;
+	margin-left:-25px;
+	padding-left:25px;
+	padding-top:1px;
+}
+
+.pgnav div.next {
+	float: right;
+	background: url(images/next.gif) no-repeat center right;
+	margin-right:-25px;
+	padding-right:25px;
+	padding-top:1px;
+}
+
+/* HACK for table in DTT using above formatting -------------*/
+
+.dtttable p {
+	font-size: small;
+	padding: 0 0 0 0;
+}
+
+/* EXTRA PAGES ----------------------------------------------*/
+
+.glossary dl {
+	padding-left: 0;
+}
+
+.wrap {
+	background-color:#FFFFFF;
+	width:100%;
+	padding:10px 10px 10px 20px; 
+}
+
+.wrap ul {
+	list-style-type:none;
+}
+
+.wrap a {
+	font-weight:normal;
+	text-decoration:none;
+	text-indent:20px;
+	color:#1e281e;
+}
+
+.wrap a:hover {
+	color: #1e281e;
+}
+
+/* QUOTE ----------------------------------------------------------*/
+
+div.quote div {
+	background: url(images/so-q.png) no-repeat top left;
+	}
+	
+div.quote div div {
+	background: url(images/sc-q.png) no-repeat bottom right;
+	}
+
+blockquote {
+	padding: 1em 40px 1em 15px;
+}
+
+blockquote span.open {
+	background: url(images/so-q.png) no-repeat left top;
+	padding: 0 0 0 15px;
+}
+
+blockquote span.close {
+	background: url(images/sc-q.png) no-repeat bottom right;
+	padding: 0 15px 0 0;
+}
+
+/* LEGEND -----------------------------------------------------------*/
+
+.legend-title {
+	background: #ffffff;
+	display: block;
+	float: left;
+	font-weight: bold;
+	left: 7px;
+	margin: 0;
+	padding: 0 3px;
+	position: absolute;
+	top: -13px;
+}
+
+.legend {
+	border: 1px solid #C9C0B7;
+	margin: 20px 0;
+	padding: 0 10px;
+	position: relative;
+}
+
+.legend10 {
+	border: 2px solid #C9C0B7;
+	margin: 20px 0;
+	padding: 20px;
+	position: relative;
+}
+
+/* UTILITY --------------------------------------------------------*/
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: block;
+}
+
+/* MAIN/SECONDARY SECTIONS -----------------------------------------*/
+
+#main {
+	color: #353e34;
+}
+
+#main a {
+	color: #0085bd;
+}
+
+#main a:hover {
+	color: #5ab0d4;
+}
+
+/* FOOTER ----------------------------------------------------------*/
+
+#footer_wrap {
+	min-width: 1002px;
+	display: block;
+	background: #362c23 url(images/footer_bg.png) repeat-x;
+}
+
+#footer {
+	position: relative;
+	background: url(images/logos.jpg) no-repeat 0 -10px;
+	width: 960px;
+	padding: 60px 0 20px 30px;
+	font-size: 1.2em;
+	line-height: 1em;
+	color: #a79578;
+	margin: 0 auto;
+}
+
+#footer span {
+	position:absolute;
+	top: 12px;
+	left:350px;
+	font-size:14px;
+	text-transform: uppercase;
+	color: #897a61;
+}
+
+#footer span a {
+	font-weight:normal;
+}
+
+#footer a {
+	color: #a79578;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #a79578;
+	text-decoration: none;
+}
+
+#footer p {
+	font-size: 12px;
+	padding-bottom:0;
+}
+
+#footer .footer_img {
+	margin-bottom: 20px;
+}
+
+.box {
+	width: 200px;
+	float: left;
+	margin-right: 40px;
+	z-index: 99;
+	padding-bottom:20px;
+}
+
+.box h1 {
+	color: #fffffe;
+	font-size:medium;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.box ul {
+	list-style:square;
+	padding:0;
+	margin: 0 0 0 30px;
+}
+
+.box li {
+	font-size: 10px;
+}
+
+.box a:link, .box a:visited {
+	color: #fffffe;
+	background: #2e251e;
+	padding: 4px 5px;
+	padding-bottom: 4px;
+	text-decoration:none;
+}
+
+.box a:hover {
+	color: #fffffe;
+	background: #468175;
+	text-decoration: none;
+}
+
+.box a:active {
+	color: #fffffe;
+	text-decoration:none;
+}
+
+#footer .icons {
+	/*border-top: 1px solid #514437;*/
+	width: 960px;
+	margin: 40px 0;
+	padding: 20px 0;
+}
+
+.icons div {
+	display:block;
+	float:left;
+	padding:0;
+}
+
+.icons div.disclaimer {
+	float:right;
+}
+
+.icons	h1 {
+	color: #fffffe;
+	font-size:medium;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.icons a {
+	color: #fffffe;
+}
+
+#footer img {
+	margin-right: 30px;
+}
+#footer .last {
+	margin-left: 505px;
+	margin-right: 0px;
+}
+
+/* POPUP FOOTER -------------------------------------------*/
+
+#footer_wrap.popup {
+	min-width: 100px;
+	width:100%;
+	display: block;
+	background: #362c23 url(images/popup_footer.gif) repeat-x;
+}
+
+#footer.popup {
+	background: url(images/logo_popup.jpg) no-repeat center 0;
+	width: auto;
+	padding: 0 2em 0 2em;
+	font-size: 1.2em;
+	line-height: 1em;
+	color: #a79578;
+	margin: 0 auto;
+}
+
+#footer.popup span {
+	position: relative;
+	top:20px;
+	font-size:14px;
+	text-transform: uppercase;
+	color: #897a61;
+	left:130px;
+}
+
+#footer.popup .icons {
+	width: auto;
+	margin: 160px 0 2.5em 0;
+}
+
+#footer.popup .logo {
+	position: absolute;
+	left: 3em;
+	top: -37px;
+}
+
+/*******************************************************************************
+/*******************************************************************************
+/*******************************************************************************
+/*******************************************************************************
+
+/* SpryMenuBarHorizontal.css - Revision: Spry Preview Release 1.4 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/*******************************************************************************
+
+ LAYOUT INFORMATION: describes box model, positioning, z-order
+
+ *******************************************************************************/
+
+/* The outermost container of the Menu Bar, an auto width box with no margin or padding */
+ul.MenuBarHorizontal
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 90%;
+	font-weight:lighter;
+	cursor: default;
+	width: auto;
+	height: 30px; 
+	position: absolute; 
+	top: 140px; 
+	left: 200px;
+	z-index:1;
+}
+
+/* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
+ul.MenuBarActive
+{
+	z-index: 1000;
+}
+/* Menu item containers, position children relative to this container and are a fixed width */
+ul.MenuBarHorizontal li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+	/*width: 8em;*/
+	text-align:center;
+	float: left;
+}
+/* Submenus should appear below their parent (top: 0) with a higher z-index, but they are initially off the left side of the screen (-1000em) */
+ul.MenuBarHorizontal ul
+{
+	margin: 0;
+	padding: 10px 0 0 0;
+	list-style-type: none;
+	font-size: 90%;
+	color:#fffdef;
+	line-height:1em;
+	z-index: 1020;
+	cursor: default;
+	/*width: 8.2em;*/
+	position: absolute;
+	left: -1000em;
+}
+
+
+/* Submenu that is showing with class designation MenuBarSubmenuVisible, we set left to auto so it comes onto the screen below its parent menu item */
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible
+{
+	left: auto;
+}
+/* Menu item containers are same fixed width as parent */
+ul.MenuBarHorizontal ul li
+{
+	width: 15em;
+	text-align:left;
+	background-color:rgba(10,10,10,0.8);
+}
+/* Submenus should appear slightly overlapping to the right (95%) and up (-5%) */
+/*ul.MenuBarHorizontal #gs a:hover, ul.MenuBarHorizontal #gs a:focus, ul.MenuBarHorizontal #cr a:hover, ul.MenuBarHorizontal #cr a:focus, ul.MenuBarHorizontal #ac a:hover, ul.MenuBarHorizontal #ac a:focus, ul.MenuBarHorizontal #it a:hover, ul.MenuBarHorizontal #it a:focus, ul.MenuBarHorizontal #tls a:hover, ul.MenuBarHorizontal #tls a:focus
+{
+		background-position: 0 -30px;
+		color:#FDFDFD;
+}*/
+
+ul.MenuBarHorizontal ul ul
+{
+	position: absolute;
+	margin: -5% 0 0 95%;
+}
+/* Submenu that is showing with class designation MenuBarSubmenuVisible, we set left to 0 so it comes onto the screen */
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible ul.MenuBarSubmenuVisible
+{
+	left: auto;
+	top: 0;
+}
+
+	/*	ul.MenuBarHorizontal span { display: none; }*/
+
+ 		ul.MenuBarHorizontal #gs a { width: 50px; }
+		ul.MenuBarHorizontal #gs li a {background:none; width: 15em;}
+		ul.MenuBarHorizontal #cr a { width: 80px; /*background: url(../css/images/nav/cr.png) no-repeat 0 0;*/}	
+		ul.MenuBarHorizontal #cr li a {background:none; width: 15em;}	
+		ul.MenuBarHorizontal #ac a { width: 80px; /*background: url(../css/images/nav/ac.png) no-repeat 0 0;*/}
+		ul.MenuBarHorizontal #ac li a {background:none; width: 15em;}		
+		ul.MenuBarHorizontal #it a { width: 90px;/* background: url(../css/images/nav/it.png) no-repeat 0 0;*/}	
+		ul.MenuBarHorizontal #it li a {background:none; width: 15em;}	
+		ul.MenuBarHorizontal #tls a { width: 115px; /*background: url(../css/images/nav/tls.png) no-repeat 0 0;*/}	
+		ul.MenuBarHorizontal #tls li a {background:none; width: 15em;}	
+		ul.MenuBarHorizontal #dtt a { width: 105px; /*background: url(../css/images/nav/tls.png) no-repeat 0 0;*/}	
+		ul.MenuBarHorizontal #dtt li a {background:none; width: 15em;}	
+		
+/*******************************************************************************
+
+ DESIGN INFORMATION: describes color scheme, borders, fonts
+
+ *******************************************************************************/
+
+/* Submenu containers have borders on all sides */
+ul.MenuBarHorizontal ul
+{
+	/*border: 1px solid #CCC;*/
+}
+/* Menu items are a light gray block with padding and no text decoration */
+ul.MenuBarHorizontal a
+{
+	display: block;
+	cursor: pointer;
+	padding: 0.5em 0.75em;
+	color: #fffdef;
+	text-decoration: none;
+	text-transform:none;
+	font-weight:normal;
+}
+/* Menu items that have mouse over or focus have a blue background and white text */
+ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
+{
+	color: #5ab0d4;
+}
+/* Menu items that are open with submenus are set to MenuBarItemHover with a blue background and white text */
+ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible
+{
+	color: #5ab0d4;
+}
+
+/*******************************************************************************
+
+ SUBMENU INDICATION: styles if there is a submenu under a given menu item
+
+ *******************************************************************************/
+
+/* Menu items that have a submenu have the class designation MenuBarItemSubmenu and are set to use a background image positioned on the far left (95%) and centered vertically (50%) */
+/*ul.MenuBarHorizontal a.MenuBarItemSubmenu
+{
+	background-image: url(SpryMenuBarDown.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+/* Menu items that have a submenu have the class designation MenuBarItemSubmenu and are set to use a background image positioned on the far left (95%) and centered vertically (50%) */
+/*ul.MenuBarHorizontal ul a.MenuBarItemSubmenu
+{
+	background-image: url(SpryMenuBarRight.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+/* Menu items that are open with submenus have the class designation MenuBarItemSubmenuHover and are set to use a "hover" background image positioned on the far left (95%) and centered vertically (50%) */
+/*ul.MenuBarHorizontal a.MenuBarItemSubmenuHover
+{
+	background-image: url(SpryMenuBarDownHover.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+/* Menu items that are open with submenus have the class designation MenuBarItemSubmenuHover and are set to use a "hover" background image positioned on the far left (95%) and centered vertically (50%) */
+/*ul.MenuBarHorizontal ul a.MenuBarItemSubmenuHover
+{
+	background-image: url(SpryMenuBarRightHover.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+
+/*******************************************************************************
+
+ BROWSER HACKS: the hacks below should not be changed unless you are an expert
+
+ *******************************************************************************/
+
+/* HACK FOR IE: to make sure the sub menus show above form controls, we underlay each submenu with an iframe */
+ul.MenuBarHorizontal iframe
+{
+	position: absolute;
+	z-index: 1010;
+}
+/* HACK FOR IE: to stabilize appearance of menu items; the slash in float is to keep IE 5.0 from parsing */
+@media screen, projection
+{
+	ul.MenuBarHorizontal li.MenuBarItemIE
+	{
+		display: inline;
+		f\loat: left;
+		background: #FFF;
+	}
+}
+
+/*******************************************************************************
+/*******************************************************************************
+/*******************************************************************************
+
+
+/* SpryTabbedPanels.css - Revision: Spry Preview Release 1.4 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/* Horizontal Tabbed Panels
+ *
+ * The default style for a TabbedPanels widget places all tab buttons
+ * (left aligned) above the content panel.
+ */
+
+/* This is the selector for the main TabbedPanels container. For our
+ * default style, this container does not contribute anything visually,
+ * but it is floated left to make sure that any floating or clearing done
+ * with any of its child elements are contained completely within the
+ * TabbedPanels container, to minimize any impact or undesireable
+ * interaction with other floated elements on the page that may be used
+ * for layout.
+ *
+ * If you want to constrain the width of the TabbedPanels widget, set a
+ * width on the TabbedPanels container. By default, the TabbedPanels widget
+ * expands horizontally to fill up available space.
+ *
+ * The name of the class ("TabbedPanels") used in this selector is not
+ * necessary to make the widget function. You can use any class name you
+ * want to style the TabbedPanels container.
+ */
+.TabbedPanels {
+	position:relative;
+	margin: auto;
+	padding: 0px;
+/*	float: left;
+	clear: none;*/
+	width: 100%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+
+/* This is the selector for the TabGroup. The TabGroup container houses
+ * all of the tab buttons for each tabbed panel in the widget. This container
+ * does not contribute anything visually to the look of the widget for our
+ * default style.
+ *
+ * The name of the class ("TabbedPanelsTabGroup") used in this selector is not
+ * necessary to make the widget function. You can use any class name you
+ * want to style the TabGroup container.
+ */
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* This is the selector for the TabbedPanelsTab. This container houses
+ * the title for the panel. This is also the tab "button" that the user clicks
+ * on to activate the corresponding content panel so that it appears on top
+ * of the other tabbed panels contained in the widget.
+ *
+ * For our default style, each tab is positioned relatively 1 pixel down from
+ * where it wold normally render. This allows each tab to overlap the content
+ * panel that renders below it. Each tab is rendered with a 1 pixel bottom
+ * border that has a color that matches the top border of the current content
+ * panel. This gives the appearance that the tab is being drawn behind the
+ * content panel.
+ *
+ * The name of the class ("TabbedPanelsTab") used in this selector is not
+ * necessary to make the widget function. You can use any class name you want
+ * to style this tab container.
+ */
+.TabbedPanelsTab {
+	position: relative;
+	top: 1px;
+	float: left;
+	padding: 4px 10px;
+	margin: 0px 1px 0px 0px;
+	font: bold 0.7em sans-serif;
+	background-color: #FFFFFF;
+	list-style: none;
+	border-left: solid 1px #CCC;
+	border-top: solid 1px #999;
+	border-right: solid 1px #999;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+}
+
+/* This selector is an example of how to change the appearnce of a tab button
+ * container as the mouse enters it. The class "TabbedPanelsTabHover" is
+ * programatically added and removed from the tab element as the mouse enters
+ * and exits the container.
+ */
+.TabbedPanelsTabHover {
+	background-color: #CCC;
+}
+
+/* This selector is an example of how to change the appearance of a tab button
+ * container after the user has clicked on it to activate a content panel.
+ * The class "TabbedPanelsTabSelected" is programatically added and removed
+ * from the tab element as the user clicks on the tab button containers in
+ * the widget.
+ *
+ * As mentioned above, for our default style, tab buttons are positioned
+ * 1 pixel down from where it would normally render. When the tab button is
+ * selected, we change its bottom border to match the background color of the
+ * content panel so that it looks like the tab is part of the content panel.
+ */
+.TabbedPanelsTabSelected {
+	background-color: #EEE;
+	border-bottom: 1px solid #EEE;
+}
+
+/* This selector is an example of how to make a link inside of a tab button
+ * look like normal text. Users may want to use links inside of a tab button
+ * so that when it gets focus, the text *inside* the tab button gets a focus
+ * ring around it, instead of the focus ring around the entire tab.
+ */
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+
+/* This is the selector for the ContentGroup. The ContentGroup container houses
+ * all of the content panels for each tabbed panel in the widget. For our
+ * default style, this container provides the background color and borders that
+ * surround the content.
+ *
+ * The name of the class ("TabbedPanelsContentGroup") used in this selector is
+ * not necessary to make the widget function. You can use any class name you
+ * want to style the ContentGroup container.
+ */
+.TabbedPanelsContentGroup {
+	clear: both;
+	border-top: solid 1px #999;
+	background-color: #FFFFFF;
+	padding: 2em;
+}
+
+/* This is the selector for the Content panel. The Content panel holds the
+ * content for a single tabbed panel. For our default style, this container
+ * provides some padding, so that the content is not pushed up against the
+ * widget borders.
+ *
+ * The name of the class ("TabbedPanelsContent") used in this selector is
+ * not necessary to make the widget function. You can use any class name you
+ * want to style the Content container.
+ */
+.TabbedPanelsContent {
+	padding-left: 50px;
+	padding-right:10px;
+}
+
+.TabbedPanelsContentGlossary {
+	padding-left: 10px;
+	padding-right:10px;
+}
+
+/* This selector is an example of how to change the appearnce of the currently
+ * active container panel. The class "TabbedPanelsContentVisible" is
+ * programatically added and removed from the content element as the panel
+ * is activated/deactivated.
+ */
+.TabbedPanelsContentVisible {
+}
+
+/*******************************************************************************
+/*******************************************************************************
+/*******************************************************************************
+
+
+/* SpryCollapsiblePanel.css - Revision: Spry Preview Release 1.4 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/* This is the selector for the main CollapsiblePanel container. For our
+ * default style, the CollapsiblePanel is responsible for drawing the borders
+ * around the widget.
+ *
+ * If you want to constrain the width of the CollapsiblePanel widget, set a width on
+ * the CollapsiblePanel container. By default, our CollapsiblePanel expands horizontally to fill
+ * up available space.
+ *
+ * The name of the class ("CollapsiblePanel") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style the
+ * CollapsiblePanel container.
+ */
+.CollapsiblePanel {
+	margin: 0px;
+	padding: 0px;
+/*	border-left: solid 1px #CCC;
+	border-right: solid 1px #999;
+	border-top: solid 1px #999;
+	border-bottom: solid 1px #CCC;*/
+}
+
+/* This is the selector for the CollapsiblePanelTab. This container houses
+ * the title for the panel. This is also the container that the user clicks
+ * on to open or close the panel.
+ *
+ * The name of the class ("CollapsiblePanelTab") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style an
+ * CollapsiblePanel panel tab container.
+ */
+.CollapsiblePanelTab {
+/*	font: bold 0.7em sans-serif;
+	background-color: #DDD;
+	border-bottom: solid 1px #CCC;*/
+	margin: 0px;
+	padding:0px;
+/*	padding: 2px;*/
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+.CollapsiblePanelTab h4 {
+	padding:0px;
+	color: #0085bd;
+}
+
+/* This is the selector for a CollapsiblePanel's Content area. It's important to note that
+ * you should never put any padding on the content area element if you plan to
+ * use the CollapsiblePanel's open/close animations. Placing a non-zero padding on the content
+ * element can cause the CollapsiblePanel to abruptly grow in height while the panels animate.
+ *
+ * The name of the class ("CollapsiblePanelContent") used in this selector is not necessary
+ * to make the widget function. You can use any class name you want to style a
+ * CollapsiblePanel content container.
+ */
+.CollapsiblePanelContent {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* An anchor tag can be used inside of a CollapsiblePanelTab so that the
+ * keyboard focus ring appears *inside* the tab instead of around the tab.
+ * This is an example of how to make the text within the anchor tag look
+ * like non-anchor (normal) text.
+ */
+.CollapsiblePanelTab a {
+/*	color: black;
+	text-decoration: none;*/
+}
+
+/* This is an example of how to change the appearance of the panel tab that is
+ * currently open. The class "CollapsiblePanelOpen" is programatically added and removed
+ * from panels as the user clicks on the tabs within the CollapsiblePanel.
+ */
+.CollapsiblePanelOpen .CollapsiblePanelTab {
+/*	background-color: #EEE;*/
+}
+
+/* This is an example of how to change the appearance of the panel tab as the
+ * mouse hovers over it. The class "CollapsiblePanelTabHover" is programatically added
+ * and removed from panel tab containers as the mouse enters and exits the tab container.
+ */
+.CollapsiblePanelTabHover,  .CollapsiblePanelOpen .CollapsiblePanelTabHover {
+/*	background-color: #CCC;*/
+}
+
+/* This is an example of how to change the appearance of all the panel tabs when the
+ * CollapsiblePanel has focus. The "CollapsiblePanelFocused" class is programatically added and removed
+ * whenever the CollapsiblePanel gains or loses keyboard focus.
+ */
+.CollapsiblePanelFocused .CollapsiblePanelTab {
+/*	background-color: #3399FF;*/
+}

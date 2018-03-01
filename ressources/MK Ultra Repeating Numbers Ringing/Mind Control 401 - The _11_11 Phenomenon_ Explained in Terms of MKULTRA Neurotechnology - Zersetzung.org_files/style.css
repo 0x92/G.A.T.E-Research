@@ -1,0 +1,117 @@
+div.fastsocialshare_container {
+	float: none;
+}
+
+div.fastsocialshare_clearer {
+	clear: left;
+}
+
+.fastsocialshare-share {
+	display: block !important;
+}
+
+.fastsocialshare-share-tw {
+	float: left;
+	margin: 5px;
+}
+
+.fastsocialshare-share-fbsh {
+	float: left;
+	margin: 5px;
+}
+
+.fastsocialshare-share-fbl {
+	float: left;
+	margin: 5px;
+}
+
+.fastsocialshare-share-su {
+	float: left;
+	margin: 5px;
+}
+
+.fastsocialshare-share-lin {
+	float: left;
+	margin: 5px;
+}
+
+.fastsocialshare-share-gone {
+	float: left;
+	margin: 5px;
+}
+
+.fastsocialshare-share-pinterest {
+	float: left;
+	margin: 5px;
+}
+
+div.sharemebutton {
+	padding: 0px 0px 0px 0px;
+	float: right;
+	width: 56px;
+	max-height: 195px;
+	text-align: center;
+}
+
+td.sharemebutton {
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	vertical-align: top;
+}
+
+td.space_right {
+	padding: 0px 0px 0px 0px;
+}
+
+div.sharemebuttont {
+	padding: 0px 2px 0px 0px;
+	float: right;
+}
+
+td.sharemebuttont {
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	vertical-align: top;
+}
+
+td.space_right {
+	padding: 0px 0px 0px 0px;
+}
+
+div.sharemebuttonf {
+	padding: 2px 2px 0px 0px;
+	float: right;
+}
+
+td.sharemebuttonf {
+	padding-right: 2px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	vertical-align: top;
+}
+
+.fb_share_large .fb_sharecount_zero {
+	-moz-border-radius: 2px 2px 2px 2px;
+	background: url("https://static.fbshare.me/f_only.png") no-repeat scroll
+		20px 5px #3B5998;
+	display: block;
+	height: 47px;
+	margin-bottom: 2px;
+	width: 53px;
+}
+
+.fb_iframe_widget span {
+	position: inherit !important;
+}
+
+.fb_iframe_widget {
+	position: inherit !important;
+}

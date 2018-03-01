@@ -1,0 +1,188 @@
+jQuery(document).ready( function($) {
+	
+	//var firsttab = $('.hometabs ul.panels-ajax-tab li.first a').text();
+	$('.hometabs ul.panels-ajax-tab').attr('id','hometabs');
+	
+	var select = '<select class="navselect">';
+	$('#hometabs li').each(function(){
+		var txt = $(this).find('a').text();
+		select += '<option value="'+txt+'" id="'+txt+'">'+txt+'</option>';
+	});
+	select += '</select>';
+	$('#hometabs').after(select);
+	
+	$('.hometabs .navselect').change(function () {
+		var str = $( ".hometabs .navselect option:selected" ).text();
+		$('#hometabs li a:contains("'+str+'")').trigger('click');
+		return false;
+	});
+	$('#hometabs li a').click(function(){
+		var tabtxt = $(this).text();
+		$('.navselect').val(tabtxt);
+		return false;
+	});
+	
+	$('.mobilenav ul.menu').attr('id','mobilenav');
+	selectnav('mobilenav');
+	
+	
+	$('#om-menu-main-mega-menu li a.second').parent().addClass('second');
+	$('#om-menu-main-mega-menu li a.third').parent().addClass('third');
+	$('#om-menu-main-mega-menu li a.long').parent().addClass('long');
+	
+	$('#om-menu-main-mega-menu a.om-link').each(function(){
+		$(this).append('<span class="arrow"></span>').parent().append('<span class="smallarrow"></span>');
+	});
+	$('.smallmenu a').click(function(){
+		$('#om-menu-main-mega-menu').slideToggle();
+		$(this).toggleClass('open');
+		return false;
+	});
+	$('#om-menu-main-mega-menu .smallarrow').click(function(){
+		$(this).parent().find('.om-maximenu-content').slideToggle();
+		$(this).parent().toggleClass('expanded');
+		$(this).toggleClass('open');
+		return false;
+	});
+	$('.footermainav h2').each(function(){
+		$(this).append('<span class="smallarrow"></span>');
+	});
+	$('.footermainav .smallarrow').click(function(){
+		$(this).parent().parent().find('ul').slideToggle();
+		$(this).parent().toggleClass('expanded');
+		$(this).toggleClass('open');
+		return false;
+	});
+	
+	//setEqualHeight($('.not-front .layout-responsive-region'));
+	
+	$("#om-menu-main-mega-menu li ul.menu").each(function() {
+		var list = $(this);
+		var listsize = list.children().length;
+		var size = Math.ceil(listsize/3);
+		var current_size = 0;
+		list.children().each(function() {
+		console.log(current_size + ": " + $(this).text());
+		  if (++current_size > size) {
+			var new_list = $("<ul></ul>").insertAfter(list);
+			list = new_list;
+			current_size = 1;
+		  }
+		  list.append(this);
+		});
+  });
+	
+	if (!$('.layout-responsive-region-sidebar_b').length > 0) { 
+		$('.layout-responsive-region-body').addClass('fullwidth');
+	}
+	
+	$('.utility .login,.fslogin,.fs_login').attr('href','#block-user-login').fancybox();
+	//$('#block-user-login form').attr('action','/home?destination=my-nagc');
+
+	$('.layout-responsive-region-sidebar_b .block.pane-callouts').has('.view-empty').hide();
+	
+	$('.layout-responsive-region-sidebar_b .block.pane-callouts').each(function(){
+		if($.trim($(this).find('.views-row-first').text()).length < 1){ $(this).hide(); }
+	});
+	
+	
+	$('#user-login-form').append('<a class="forgotlink" href="https://netforum.avectra.com/eweb/DynamicPage.aspx?WebCode=ForgotPassword&Site=nagc" target="_blank">Forgot Password?</a>');
+	
+	$('.om-maximenu-content .field-name-field-callout-image img').each(function(){
+		$(this).insertAfter( $(this).parent().parent().parent().parent().find('h3') );
+	});
+	
+	$('a.print-page').each(function(){
+		$(this).attr('href','javascript:window.print()');
+		$(this).removeAttr('onclick');
+	});
+	
+	
+	
+	$(window).resize(function() {
+			responsive();
+	});
+	
+});
+
+
+
+
+window.onload=function(){
+	if(!isIE(8,'lte')){
+		responsive();
+	 }
+	 else{
+		setEqualHeight(jQuery('.not-front .layout-responsive-region'));
+	 }
+};
+
+
+
+
+
+
+function responsive(){
+	var winWidth = jQuery(window).width();
+	var size = "Large";
+	if( (winWidth < 1025) && ( winWidth >= 760 ) ){
+		//jQuery('#om-menu-main-mega-menu').attr('style','');
+		jQuery('#om-menu-main-mega-menu').show();
+		jQuery('#om-menu-main-mega-menu .om-maximenu-content').attr('style','');
+		jQuery('.page-resources-publications-my-nagc.not-front #pagewrapper .layout-responsive-region-sidebar_b').insertBefore('.page-resources-publications-my-nagc.not-front #pagewrapper .layout-responsive-region-body');
+		size = "Medium";
+	}
+	if(winWidth <760){
+		jQuery('.page-resources-publications-my-nagc.not-front #pagewrapper .layout-responsive-region-sidebar_b').insertAfter('.page-resources-publications-my-nagc.not-front #pagewrapper .layout-responsive-region-sidebar_c');
+		size = "Small";
+	}
+	if(winWidth >= 1025){
+		//jQuery('#om-menu-main-mega-menu').attr('style','');
+		jQuery('#om-menu-main-mega-menu').show();
+		jQuery('#om-menu-main-mega-menu .om-maximenu-content').attr('style','');
+		jQuery('.footermainav ul').attr('style','');
+		jQuery('.page-resources-publications-my-nagc.not-front #pagewrapper .layout-responsive-region-sidebar_b').insertBefore('.page-resources-publications-my-nagc.not-front #pagewrapper .layout-responsive-region-body');
+		size = "Large";
+	}
+	jQuery('#om-menu-main-mega-menu').attr('class',size);
+	bannerAdjust(size);
+	jQuery('.debug').html('Width: '+winWidth+' Size: '+size);
+}
+
+function setEqualHeight(columns){  
+	 var tallestcolumn = 0;
+	 columns.each(function(){
+		 currentHeight = jQuery(this).height();
+		 if(currentHeight > tallestcolumn){
+			tallestcolumn  = currentHeight;
+		 }
+	 });
+	 columns.height(tallestcolumn);
+}
+
+function bannerAdjust(size){
+	if(size == "Medium"){
+		var lis = jQuery('.gifted li').size();
+		var hero = jQuery('.hero img').height();
+		var each = hero / lis;
+		jQuery('.gifted li').each(function(){ jQuery(this).css('height', each+'px').css('line-height',each+'px'); });
+	}
+	else{
+		jQuery('.gifted li').each(function(){ jQuery(this).attr('style',''); });
+	}
+}
+
+function isIE( version, comparison ){
+    var $div = jQuery('<div style="display:none;"/>').appendTo(jQuery('body'));
+    $div.html('<!--[if '+(comparison||'')+' IE '+(version||'')+']><a>&nbsp;</a><![endif]-->');
+    var ieTest = $div.find('a').length;
+    $div.remove();
+    return ieTest;
+}
+
+
+	
+
+
+
+	

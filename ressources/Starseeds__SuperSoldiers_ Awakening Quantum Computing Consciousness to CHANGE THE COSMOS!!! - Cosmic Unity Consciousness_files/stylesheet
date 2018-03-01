@@ -1,0 +1,251 @@
+/* Cleaned CSS: */
+
+body {
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    background-color: #020202;
+    color: #ae01ff;
+
+    font-family: "Papyrus", sans-serif;
+
+    background-image: url(https://img.photobucket.com/albums/v391/Christynine/Picture174.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+
+}
+#Content {
+    background-color: #020202;
+    width: 70%;
+    padding: 0;
+
+    margin-left: 30%;
+
+}
+#Title {
+    word-wrap: break-word;
+    color: #27ff3b;
+    background-color: #a305ff;
+
+    background-image: url(https://l-stat.livejournal.com/palimg/textures/camouflage.png/pta305ff);
+
+}
+
+
+#GlobalTitle {
+    width: 80%;
+    margin-left: 20%;
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#GlobalSubtitle {
+    width: 75%;
+    margin-left: 25%;
+    font-size: .80em;
+    margin-top: 2px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+.overflow, .BoxContent {
+    overflow: auto;
+}
+#Header {
+
+    font-family: "Papyrus", sans-serif;
+
+    width: 100%;
+    background-color: #77baff;
+    color: #fd03fa;
+    margin-bottom: 10px;
+}
+.Box  {
+
+    font-family: "Papyrus", sans-serif;
+
+    background-color: #000000;
+    color: #b401ff;
+    width: 100%;
+}
+.BoxContents {
+    background-color: #000000;
+    color: #b401ff;
+    width: 100%;
+}
+.DropShadow {
+    margin-bottom: 10px
+}
+.BoxSideBar {
+    width: 175px;
+    height: 100%;
+    background-color: #77baff;
+    color: #fd03fa;
+}
+
+
+.BoxSideBar table {
+    width: 175px;
+    height: 100%;
+}
+.BoxSidebar table a {
+    background-color: #77baff;
+    color: #0000ff;
+}
+.BoxSidebar table a:visited {
+    background-color: #77baff;
+    color: #ff00ff;
+}
+.BoxSideBar table th {
+    background-color: #a305ff;
+    color: #27ff3b;
+}
+.BoxSideBarContents {
+    height: 100%;
+    padding: 5px;
+}
+.BoxTitle {
+    text-align: left;
+    background-color: #565555;
+    color: #fd03fa;
+    padding: 5px;
+}
+.BoxTitle A, .BoxTitle A:hover, .BoxTitle A:visited {
+    color: #fd03fa;
+    text-decoration:none;
+}
+
+.BoxContents {
+    padding: 5px;
+}
+
+/* Fix resizing images in FF */
+.entry-content {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+
+
+.HeaderNavMenu {
+    background: #77baff url(https://l-stat.livejournal.com/palimg/shadow/t.gif/pta305ff77baff) top center repeat-x;
+    width: 100%;
+    background-color: #77baff;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 5px;
+}
+.HeaderNavSubMenu {
+    background-color: #565555;
+    margin: 0;
+    padding-left: 20px;
+}
+.HeaderNavMenu li, .HeaderNavSubMenu li {
+    margin-right: 10px;
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+
+.HeaderNavMenu li.inactive {
+    background: #b3d9ff url(https://l-stat.livejournal.com/palimg/shadow/t.gif/pta305ffb3d9ff) top repeat-x;
+    margin-right: 25px;
+    display: inline;
+}
+.HeaderNavMenu li#active {
+    background: #565555 url(https://l-stat.livejournal.com/palimg/shadow/t.gif/pta305ff565555) top repeat-x;
+    color: #fd03fa;
+    font-weight: bold;
+    margin-right: 25px;
+    display: inline;
+}
+.HeaderNavMenu li#active a {
+    color: #fd03fa;
+}
+.HeaderNavMenuFirst {
+    margin-left: 50px;
+    padding: 0;
+    visibility: hidden;
+}
+.HeaderNavMenu li {
+    color: #fd03fa;
+}
+.HeaderNavMenu li a {
+    color: #fd03fa;
+    text-decoration: none;
+}
+.HeaderNavSubMenu li {
+    color: #fd03fa;
+}
+.HeaderNavSubMenu li a {
+    color: #fd03fa;
+    text-decoration: none;
+}
+#FooterNavMenu {
+    text-align: center;
+    background-color: #000000;
+    color: #b401ff;
+}
+#FooterNavMenu a {
+    background-color: #000000;
+    color: #b401ff;
+}
+#FooterNavMenu a:visited {
+    background-color: #000000;
+    color: #b401ff;
+}
+.CommentBarOne, .CommentBarTwo, .CommentBarScreened
+{
+    width: 100%; margin-top: 1em; height: 100%;
+}
+.CommentBarOne
+{
+    background-color: #7a7878;
+    color: #02b4f7;
+}
+.CommentBarTwo
+{
+    background-color: #999999;
+    color: #f907fc;
+}
+.CommentBarScreened
+{
+    background-color: #010101;
+    color: #11ff17;
+}
+
+
+#MiniCal {
+    width: 175px; height: 3em;
+}
+.MiniCalDayPosts, .MiniCalDay
+{
+    text-align: center;
+    font-size: .8em;
+    border: 1px inset #000;
+    width: 14%;
+}
+.MiniCalDayPosts {
+    background-color: #b3d9ff;
+}
+.MiniCalDayPosts a
+{
+    color: #fd03fa;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+}
+
+.j-adv {
+    margin: 20px auto;
+    text-align: center;
+    }
+    .j-adv-inner {
+        display: inline-block;
+        }
+
+
