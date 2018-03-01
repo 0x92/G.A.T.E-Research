@@ -9,6 +9,5 @@ Contributors welcome
 
 Imagetest
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-![Alt text](images/headphones.jpg?raw=true "Headphones")
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  
+![Screenshot](images/headphones.jpg)
