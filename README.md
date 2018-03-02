@@ -16,6 +16,10 @@ Contributors welcome - You can find the unsorted information that I have collect
 3. Occult Connections
 
 
+----------
+
+
+
 # Intro #
 
 1. Read this carefully, for it will change your life.
@@ -555,3 +559,7 @@ Contributors welcome - You can find the unsorted information that I have collect
 270. Therefore, he shall live consciously-spiritually under the eyes of that which is creative; he shall live with the consciousness of that which is spiritual, that is infinite power, of which he must always be aware.
 
 271. Then he can never be weak.
+
+# What is GATE? #
+
+GATE = Gifted and Talented Education, it's a part of the American system. Basically kids are put through a screening test around grade 3-4 and some are selected by the results of the test to go into separate classes, sometimes separate schools for a day or so each week. Here they are given the most advanced memes the state has in order to ensure they follow the rest of the cattle, or better yet, become the left wing memes and get handed the keys to the gate. 
