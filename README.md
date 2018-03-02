@@ -1,13 +1,12 @@
 ![Screenshot](images/uilogo.png)
-##
 
 # G.A.T.E-Research #
 
 *a independent research dedicated about the G.A.T.E program and its occult connections*
 
-##
-
 Contributors welcome - You can find the unsorted information that I have collected over the last months in the `resources` folder
+
+##
 
 # Table of Contents #
 
