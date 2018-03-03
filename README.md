@@ -15,7 +15,8 @@ Contributors welcome - You can find the unsorted information that I have collect
 3. What is GATE?
 4. Characteristics of GATE Students
 5. Occult Connections
-7. Personal Theory thinking from a spiritual strategic perspective
+7. Why?
+8. Memory Trigger
 
 
 ----------
@@ -659,7 +660,9 @@ If you can dream it, you can do it. Always remember that this whole thing was st
 
 # What is GATE? #
 
-GATE = Gifted and Talented Education, it's a part of the American system. Basically kids are put through a screening test around grade 3-4 and some are selected by the results of the test to go into separate classes, sometimes separate schools for a day or so each week. Here they are given the most advanced memes the state has in order to ensure they follow the rest of the cattle, or better yet, become the left wing memes and get handed the keys to the gate. 
+GATE = Gifted and Talented Education, it's a part of the American system. Basically kids are put through a screening test around grade 3-4 and some are selected by the results of the test to go into separate classes, sometimes separate schools for a day or so each week. Here they are given the most advanced memes the state has in order to ensure they follow the rest of the cattle, or better yet, become the left wing memes and get handed the keys to the gate.
+
+There seems to have been two categories of G.A.T.E Students. Category 1 was kids that after the G.A.T.E program seemed to have been 'selected'. these kids seemed to have been groomed for specific classes and all pursied advanced stem degrees or political degrees, these kids also seem to have been helped along towards that end. Category 2 are kids who 'didnt get selected'. They found themselves in poisitions where their education was sabotaged from middle school on, refused entry into honors roll and other things that would make children that would otherwise be high achievers give up and become massive underachievers. People from the chans are category 2.
 
 ![Screenshot](images/wig.png)
 
@@ -669,4 +672,88 @@ GATE = Gifted and Talented Education, it's a part of the American system. Basica
 
 ![Screenshot](images/spirit.jpg)
 
+![Screenshot](images/characteristics.png)
+
 ![Screenshot](images/traits.png)
+
+##
+
+# Occult Connections #
+
+![Screenshot](images/sp.png)
+
+![Screenshot](images/aquino.jpg)
+
+![Screenshot](images/sp1.png)
+
+![Screenshot](images/aquinoworig333.jpg)
+
+![Screenshot](images/Aquinos.jpg)
+
+![Screenshot](images/1456113953920.jpg)
+
+![Screenshot](images/12cdcbf41b27d0cb991138fd16d4cbee0736f040ca36352a1a258847f59b9c3c.png)
+
+![Screenshot](images/michael-aquino-temple-of-set.png)
+
+![Screenshot](images/MAAquino.png)
+
+![Screenshot](images/satanist.png)
+
+## Check the `AquinoVitae.pdf` for more informations.  ##
+
+
+
+
+![Screenshot](images/mk2.png)
+
+![Screenshot](images/mkultra.jpg)
+
+![Screenshot](images/mk1.png)
+
+
+
+##
+
+# Why? #
+
+Throughout history, the rich elite has coined a variety of methods for thwarting the advancement and evolution of humankind. However, one of their most nefarious methods yet could be the fabrication of ADHD in order to stop the progression of the enlightened ones or the Indigo children.
+
+The Indigo children or Star Children are the ones that typically feel more than others. Even the simplest moment of happiness or laughter can send them over the edge with excitement. Oftentimes, they struggle with school, because despite their intelligence, their mind works completely differently than most others. You see, the typical structure and methodical nature of the school system confines their inner creativity in such a way that they are unable to truly embrace their talents.
+
+Indigo children can come off as hyperactive, fidgety, strange and even impulsive. However, many believe that they are the generation that will help bring humanity to a higher level of evolution. Unfortunately, because of this, they could be perceived as a threat to the elite. Due to their enhanced spiritual evolution, the Indigos are the ones that could change the world for the better. They are the ones that could overturn the dark nature of the elite and bring about true change.
+
+While the notion may seem a bit far-fetched, if you take a look at the symptoms of ADHD and compare them to the traits of an Indigo child, it becomes obvious that the two have almost everything in common.
+
+Children who are deemed to have ADHD are said to fall into three categories of traits: inattention, hyperactivity, and impulsivity.
+
+Conversely, Indigo’s can be perceived as inattentive because of their immense creativity. Such creativity causes the rigid structure of society to bore them to the point of becoming lost inside of their own minds. In turn, they may seem to be unable to pay attention. Their strong desire to understand the inner working of the world may come off as hyperactivity, and their insightful nature can cause them to be deemed as impulsive.
+
+Yet, instead of embracing these traits, parents are told by the pharmaceutical industry that their children are suffering from a mental disorder. That rather than aiding their children in their evolvement, they should thwart it with medications that perfectly mimic street drugs such as methamphetamine. Therapy for such disorders, which have been deemed as a fake disease by various experts, includes prescription amphetamines.
+
+Adderall, as Vice so eloquently put it is a ‘kissing cousin’ to meth. Yet, for whatever reason, hyperactivity and creativity in a three-year-old merit the implementation of METH into their daily life. 
+
+Why? Because the elite can’t have a generation of enlightened children challenging the traditional patterns of thinking and behavior. And no matter how many experts come forward stating the various problems with the diagnoses, parents continue to force feed their children prescription meth in hopes to control their children’s erratic behavior.
+
+According to Robert Berezin, who has long practiced psychotherapy for 45 years, psychiatric drugs, including Adderall do little to thwart real behavioral issues. Instead, he states,
+
+“ADHD as a so-called disease is fictitious. Yes, kids get out of control behaviorally and impulsively, along with having concentration issues. This comes from a child with an active temperament who needs clear boundaries and physical activity.”
+Continuing, he says, “Amphetamines are dangerous drugs. I disagree with their use.”
+
+Such medications cause children to become “suicidal”, violently “impulsive” or worse.
+
+Maybe it’s time that we look at our children as the human beings they are. Maybe its time that we understand that the problem isn’t with them, but instead, an issue with our school systems and societal structure. What if we were poisoning our children on behalf of the government because they couldn’t have a true evolution of human nature for the greater good. While what I am proposing may sound crazy, I promise the truth is almost always stranger than fiction.
+
+##
+
+# Memory Trigger #
+
+The following images might trigger old burdened memories
+
+![Screenshot](images/rorschach_plate_01-bat_butterfly_moth1.jpg)
+
+![Screenshot](images/1488239430290.jpg)
+
+![Screenshot](images/1507880675509.jpg)
+
+![Screenshot](images/1488751122650.jpg) 
