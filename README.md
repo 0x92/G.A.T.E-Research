@@ -664,6 +664,34 @@ GATE = Gifted and Talented Education, it's a part of the American system. Basica
 
 There seems to have been two categories of G.A.T.E Students. Category 1 was kids that after the G.A.T.E program seemed to have been 'selected'. these kids seemed to have been groomed for specific classes and all pursied advanced stem degrees or political degrees, these kids also seem to have been helped along towards that end. Category 2 are kids who 'didnt get selected'. They found themselves in poisitions where their education was sabotaged from middle school on, refused entry into honors roll and other things that would make children that would otherwise be high achievers give up and become massive underachievers. People from the chans are category 2.
 
+A few similarities about us became apparent as the threads naturally evolved:
+
+- Blue eyes (ok it's a given on /pol/)
+- Occipital Bun (aka math bump on the back of skull)
+- Birth Complications (like weeks early or not breathing)
+- Near Death Experiences (particularly drowning)
+- lack of memory of GATE - (we all did many many hours there, and it's very vague)
+- windows were covered 
+- tendency to being followed (abductions and general tracking too)
+
+![Screenshot](images/op.png)
+
+![Screenshot](images/op1.png)
+
+
+Other similarities, less common but still a few exGATErs agree on these too:
+
+- Interest in /x/ phenomena
+- Heavy early twenties drug period
+- Forehead scares
+- Early speech therapy
+- First born sons
+- Migraines
+- Israeli art student girlfriends (not even joking)
+- Meme Magic
+- Premonitions/prophetic dreams
+- Above average intuition
+
 ![Screenshot](images/wig.png)
 
 ##
@@ -711,7 +739,121 @@ There seems to have been two categories of G.A.T.E Students. Category 1 was kids
 
 ![Screenshot](images/mk1.png)
 
+## Rephaim : The Reincarnate Possessors ##
 
+The subject of reincarnation is rarely delved into by followers of Yahushua past the point of delegating it to a category of false occult or pagan belief. While there is no sound biblical evidence for the occurrence of reincarnation of the human spirit (though some may disagree)… there is some interesting, if rarely discussed, explanations in scripture for the prevalence of a belief in reincarnation throughout pagan cultures from the earliest to the most recent.
+
+There is a mistake to be made in a complete, willful ignoring of what pagan belief systems held as true, in that these records cannot be brushed off as complete fabrications of imagination born in ignorant and godless minds.
+
+At one point in the far past, all humanity had one common record of events from which derived a variety of partial truths or biased views of true events perverted thus by fallen spirits during a lost time, when no man personally recalled the beginning and no man had yet been given the testimony of the Creator.
+
+When so much has been craftily translated into and out of the original languages which the testimony of His Truth was given… we have arrived in a time when it is simply not enough to read a KJV (or other English version of scripture) and come to the conclusion that all that is recorded therein is precisely what was written.
+
+With fairly little effort, any person can use a concordance of original languages to better gain a picture of what has been given to men to know… before the same fallen powers which have constructed half truths all along, came in to undermine His message.
+
+Buddhist Ancestor WorshipWhat can be gained from a mature study of pagan beliefs are the mile markers of history that, though defaced, can be used to lead one to seek a scriptural answer to the truth of how those subjects really entered upon the world scene.
+
+In this day we hear quite a bit from the New Age community on “ascended masters”. This concept is a very old one but the term and it’s present popularity began with Helena Petrovna Blavatsky, founder of Theosophy and the Theosophical Society.
+
+The basic idea of this belief is that these ascended masters have lived successive lives in multiple incarnations on the earth, gaining knowledge as they proceed to a point of great enlightenment at which time they are considered masters and teachers of humanity.
+
+It is further believed in certain occult circles that at the point at which a reincarnated soul reaches this status they are able to retain and recall the memories of their various past lives.
+
+The “Illumined” Luciferian or Illuminati concept of a Moon Child ties in closely with the concept of ascended mastery. A Moon Child ritual is a very dark and high level occult ritual which requires blood sacrifice, the goal of which is to call into a prenatal infant, a demonic entity which will not just possess, but displace the original spirit, and live out a mortal life in the body.
+
+It is necessary to clarify that the use of the term “demonic” here is to refer to a nephil spirit, a human/angel hybrid who has died and whose spirit is free-roaming on the earth. 1 Enoch gives some information on spirits of this kind:
+
+“The spirits of the giants shall be like clouds, which shall oppress, corrupt, (cause to) fall, contend, and bruise upon the earth. They shall cause lamentation. No food shall they eat; and they shall be thirsty (for a habitat); they shall be concealed (invisible), and those spirits shall rise up against the sons of men (torment), and against women; for they come forth (from them) during the days of slaughter and destruction (the flood or deluge). And as to the death of the giants, wheresoever their spirits depart from their bodies, let their flesh, that which is perishable, be without judgment. Thus, they shall perish, until the day of the great consummation of the great world. ”
+– 1 Enoch 15
+
+Aleister Crowley, infamous Satanist and Freemason, wrote on the Moon Child stating that the ritual ensured the “perfect” spirit for the body, likening spirits who await their reincarnation to butterflies and in his book entitled Moonchild, the villa where the ritual was performed to create Moon Children was named The Butter-fly-net.
+
+The CIA projects Monarch and MKultra created Moonchildren and made the connection between bloodline and the spirits which were obtained to inhabit the bodies.
+
+As with various ancients traditions on reincarnation, the spirit which reincarnates into the prescribed body must do so in a body which belongs to the same hereditary line… hence Moonchildren were normally made of children who belonged to one of the “blue-blood” families.
+
+A very curious creature is named in Old Testament scripture which has gone by the wayside to be identified as simply one more tribe of heathens with which Israel had disagreements.
+
+Modern scholars of Old Testament scripture are much perturbed by the definition and etymology of the name of this people called the Rephaim. It would seem, perhaps at first glance of a few uses of the name in a KJV bible, that they are, indeed, just a tribe of people.
+
+Genesis 14:5 “And in the fourteenth year came Chedorlaomer, and the kings that were with him, and smote the Rephaims in Ashteroth Karnaim, and the Zuzims in Ham, and the Emims in Shaveh Kiriathaim”
+
+Genesis 15:18-20 “In the same day the LORD made a covenant with Abram, saying, Unto thy seed have I given this land, from the river of Egypt unto the great river, the river Euphrates: The Kenites, and the Kenizzites, and the Kadmonites, And the Hittites, and the Perizzites, and the Rephaims,”
+
+It occurs after these references though, no less than 17 times, that Rephaim or Rapha is translated “giant/s”… here are a few examples:
+
+2 Samuel 21:18 “And it came to pass after this, that there was again a battle with the Philistines at Gob: then Sibbechai the Hushathite slew Saph, which was of the sons of the giant.”
+
+1 Chronicles 20:4 “And it came to pass after this, that there arose war at Gezer with the Philistines; at which time Sibbechai the Hushathite slew Sippai, that was of the children of the giant: and they were subdued.”
+
+Deuteronomy 2:11 ” Which also were accounted giants, as the Anakims; but the Moabites call them Emims.”
+
+Deuteronomy 2:20 “(That also was accounted a land of giants: giants dwelt therein in old time; and the Ammonites call them Zamzummims;”
+
+Joshua 17:15 “And Joshua answered them, If thou be a great people, then get thee up to the wood country, and cut down for thyself there in the land of the Perizzites and of the giants, if mount Ephraim be too narrow for thee.”
+
+Perhaps most strange of all is that this word is also translated as “dead” on several occasions. Instances where Rephaim/Rapha are translated as “dead” are listed below:
+
+Job 26:5 “Dead things are formed from under the waters, and the inhabitants thereof.”
+
+Psalms 88:10 “Wilt thou shew wonders to the dead? shall the dead arise and praise thee? Selah. ”
+
+Proverbs 2:18 “For her house inclineth unto death, and her paths unto the dead.”
+
+Proverbs 9:18 “But he knoweth not that the dead are there; and that her guests are in the depths of hell.”
+
+Proverbs 21:16 “The man that wandereth out of the way of understanding shall remain in the congregation of the dead.”
+
+The Hebrew definitions of Rephaim, it’s root and offshoots are:
+
+rapha/ raphah – to mend, cure or thoroughly make whole…
+or as a noun (rapha): a ghost, the dead…
+or as a noun (raphah) something invigorating, a giant
+or as an adjective (raphah): feeble, idle, still
+Rephuw: cured
+Rephach: sustain
+
+It becomes incredibly confusing to attempt to reconcile each of these definitions to one root, and especially confusing to understand how each of these ideas should be applicable to one group of ancient people, incorporating both the ideas of something dead: a ghost, something feeble or ethereal, with something which seems opposite of that: the concept of healing and revitalizing – while the definition of “giant” is thrown in besides.
+
+Taking all this into consideration with some clues that have come down from the culture itself though, begins to fit the pieces of the puzzle together.
+
+Scriptural text is not the only historical mention of Rephaim… these people were also discussed by Phoenicians and Ras Shamra Ugaritic texts. A warning against raiding a Sidonian king’s tomb reads “May there be no resting-place for you with the Rephaim”.
+
+Phoenicians clearly understood rephaim as being spirits which inhabited the netherworld. Ugaritic texts explains them as being divine in nature though not precisely “gods”. They are also described as a warlike people.
+
+It was customary that they prayed to the rephaim, brought food offerings and flowers in hopes of benefiting their dead loved ones, a practice which is identical with ancestor worship, and we can safely conclude that is what it was. (Pictured below, a Korean Jesa Altar)
+
+Korean Jesa AltarThe Rephaim, in the understanding of those cultures, were partially divine, ancestral spirits. It becomes then, crystal clear, why YHWH made a point of letting it be known to His people that He is an Elohim of the living and not of the dead.
+
+The hybrid offspring of rebel angels and mortal women were born to physical bodies, having earthly mothers, but the spirits of these creatures, once their bodies perished, were not like the human spirit – which, once deceased, proceeded to a “holding place” (whether a restful one or a tormenting one). Neither were their spirits beholden to the natural process of mortal life followed by a judgment.
+
+In Hebrews 9:27 it is recorded for mankind:
+
+“And as it is appointed for men to die once but after this the judgment,”
+
+…but for nephil spirits: “… And as to the death of the giants, wheresoever their spirits depart from their bodies, let their flesh, that which is perishable, be without judgment.” – 1 Enoch 16:1
+
+Their judgement awaits the great judgment at the end of all ages, until then… they roam the earth, and it is possible for them to take up incarnation over and over, in physical bodies which descend from their own hereditary line.
+
+Understanding this, it then becomes clear why a word or words in Hebrew describing one group of people should encapsulate the ideas: giant, (a product of angelic and human procreation) ghosts, (disembodied spirits who have lived perishable, flesh lives) and healing or revitalization (an ability to reincarnate).
+
+The Rephaim, then, are those particular nephil spirits who return successively to live multiple mortal lives, becoming the highly esteemed “Ascended Masters” of the New Age movement.
+
+It is not hard to imagine what great influence embodied ancient spirits like these can have on modern society as a whole and what important part they can play in helping to achieve a NWO agenda… it is also not difficult to figure out why YHWH warned His people to never have anything to do with communication with the dead.
+
+Although it is flatly assumed by many that no nephil can be saved, I would have to utterly disagree just by the mere fact that at this point in history there is very likely no pure human left on earth.
+
+It is statistically probable that since the time of Yahushua (the last point in time a pure human lineage would have been entirely necessary) that due to the greater ability to travel about the world in hours rather than months… the whole world has become a melting pot of lineages.
+
+If no person whose bloodline was adulterated with fallen angelic bloodlines was able to be redeemed, we might well have a whole world of unsalvageable souls.
+
+This is not to say that I believe that every person who has any trace of non-human blood is capable of future incarnations by any means, rather that is the result of being a high percentage of angelic ancestry (50/50 or 75/25 where the lineage comes from the paternal grandfather).
+
+I would also venture to add that if any half-angelic nephil were to repent during the course of a mortal life, they would possibly no longer continue to re-enter further physical lives (as the loss of memory from one physical life to the next might negate the decision to repent).
+
+Would this be some “unfair” advantage to nephilim? No… I don’t think so… in a creature who was so thoroughly predisposed to evil at their first conception and must undergo (more or less) the entire learning process over and over again… it would remain much more difficult for one of these to come to a knowledge and acceptance of the truth, having an ever present influence of fallen spirits, if anything, the chances of repentance would decrease with each reincarnation.
+
+![Screenshot](images/moonchild.jpg)
 
 ##
 
