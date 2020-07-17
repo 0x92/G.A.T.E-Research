@@ -859,6 +859,8 @@ Would this be some “unfair” advantage to nephilim? No… I don’t think so�
 
 # Why? #
 
+![Screenshot](images/1594976345160.jpg)
+
 Throughout history, the rich elite has coined a variety of methods for thwarting the advancement and evolution of humankind. However, one of their most nefarious methods yet could be the fabrication of ADHD in order to stop the progression of the enlightened ones or the Indigo children.
 
 The Indigo children or Star Children are the ones that typically feel more than others. Even the simplest moment of happiness or laughter can send them over the edge with excitement. Oftentimes, they struggle with school, because despite their intelligence, their mind works completely differently than most others. You see, the typical structure and methodical nature of the school system confines their inner creativity in such a way that they are unable to truly embrace their talents.
