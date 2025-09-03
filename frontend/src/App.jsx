@@ -4,6 +4,7 @@ import DocumentBrowser from './components/DocumentBrowser';
 import GlobalSearch from './components/GlobalSearch';
 import ConnectionsMap from './components/ConnectionsMap';
 import GeoMap from './components/GeoMap';
+import EventTimeline from './components/EventTimeline';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <h1>Document Browser</h1>
       <GlobalSearch />
       <DocumentBrowser />
+      <EventTimeline />
       <ConnectionsMap />
       <GeoMap
         locations={[
