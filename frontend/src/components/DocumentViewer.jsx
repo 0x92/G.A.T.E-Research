@@ -1,4 +1,5 @@
 import React from 'react';
+import NoteEditor from './NoteEditor';
 
 function DocumentViewer({ document, onClose }) {
   if (!document) return null;
@@ -40,6 +41,7 @@ function DocumentViewer({ document, onClose }) {
         Close
       </button>
       {content}
+      <NoteEditor docId={document.id} />
     </div>
   );
 }
