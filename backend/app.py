@@ -16,7 +16,7 @@ from passlib.context import CryptContext
 from pydantic import BaseModel
 from meilisearch import Client
 
-from search import DEFAULT_INDEX_NAME, search as ms_search
+from .search import DEFAULT_INDEX_NAME, search as ms_search
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 METADATA_FILE = BASE_DIR / "data" / "index.json"
