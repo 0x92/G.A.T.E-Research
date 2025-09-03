@@ -4,3 +4,4 @@ uvicorn[standard]
 fpdf2
 python-jose[cryptography]
 passlib[bcrypt]
+pytesseract
