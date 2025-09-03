@@ -1,0 +1,49 @@
+version: '3.8'
+services:
+  backend:
+    image: python:3.11-slim
+    working_dir: /code
+    volumes:
+      - .:/code
+    command: bash -c "pip install -r backend/requirements.txt && uvicorn backend.app:app --host 0.0.0.0 --port 8000"
+    environment:
+      MEILISEARCH_HOST: http://search:7700
+      MEILISEARCH_API_KEY: ${MEILI_MASTER_KEY:-masterKey}
+    ports:
+      - "8000:8000"
+    depends_on:
+      - search
+      - db
+  frontend:
+    image: node:18
+    working_dir: /code/frontend
+    volumes:
+      - ./frontend:/code/frontend
+    command: bash -c "npm install && npm run dev -- --host 0.0.0.0"
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+  search:
+    image: getmeili/meilisearch:v1.7
+    environment:
+      MEILI_NO_ANALYTICS: "true"
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY:-masterKey}
+    ports:
+      - "7700:7700"
+    volumes:
+      - meili_data:/meili_data
+    command: meilisearch --db-path /meili_data --http-addr '0.0.0.0:7700'
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: app
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+volumes:
+  meili_data:
+  postgres_data:
