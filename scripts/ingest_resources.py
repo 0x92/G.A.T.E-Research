@@ -15,7 +15,9 @@ from typing import List, Dict
 
 from bs4 import BeautifulSoup
 import pdfplumber
+import pytesseract
 import spacy
+from PIL import Image
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
 
@@ -69,6 +71,15 @@ def extract_text(path: str) -> str:
     return ""
 
 
+def extract_ocr_text(path: str) -> str:
+    """Extract text from image files using Tesseract."""
+    try:
+        with Image.open(path) as img:
+            return pytesseract.image_to_string(img)
+    except Exception:
+        return ""
+
+
 def hash_file(path: str) -> str:
     """Return the SHA256 digest of a file."""
     h = hashlib.sha256()
@@ -116,14 +127,25 @@ def main() -> None:
                     path = os.path.join(root, fname)
                     try:
                         metadata = build_metadata(path)
-                        text = extract_text(path)
-                        if text:
-                            doc = nlp(text)
+                        text = ""
+                        ocr_text = ""
+                        if ext in {".html", ".htm", ".pdf"}:
+                            text = extract_text(path)
+                        else:
+                            ocr_text = extract_ocr_text(path)
+
+                        analysis_text = text or ocr_text
+                        if analysis_text:
+                            doc = nlp(analysis_text)
                             metadata["entities"] = sorted({ent.text for ent in doc.ents})
-                            texts.append(text)
+                            texts.append(analysis_text)
                             text_indices.append(len(records))
                         else:
                             metadata["entities"] = []
+
+                        if ocr_text:
+                            metadata["ocrText"] = ocr_text
+
                         metadata["topics"] = []
                         records.append(metadata)
                     except Exception as exc:

@@ -42,12 +42,15 @@ function GlobalSearch() {
       />
       {results.length > 0 && (
         <ul>
-          {results.map((hit) => {
-            const snippet =
-              (hit._formatted &&
-                (hit._formatted.content || hit._formatted.text || '')) ||
-              '';
-            return (
+            {results.map((hit) => {
+              const snippet =
+                (hit._formatted &&
+                  (hit._formatted.content ||
+                    hit._formatted.text ||
+                    hit._formatted.ocrText ||
+                    '')) ||
+                '';
+              return (
               <li key={hit.id} style={{ marginBottom: '1rem' }}>
                 <strong>{hit.title || hit.id}</strong>
                 {snippet && (

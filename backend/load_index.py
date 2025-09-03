@@ -42,6 +42,14 @@ def load_index(index_file: Path = DEFAULT_INDEX_FILE, index_name: str = DEFAULT_
         documents = data
 
     index.update_filterable_attributes(["type", "source", "topics", "entities"])
+    index.update_searchable_attributes([
+        "title",
+        "ocrText",
+        "source",
+        "topics",
+        "entities",
+        "tags",
+    ])
     index.add_documents(documents)
 
 
