@@ -9,7 +9,7 @@ import EventTimeline from './components/EventTimeline';
 function App() {
   return (
     <div className="App">
-      <h1>Document Browser</h1>
+      <h1 className="app-header">Document Browser</h1>
       <GlobalSearch />
       <DocumentBrowser />
       <EventTimeline />

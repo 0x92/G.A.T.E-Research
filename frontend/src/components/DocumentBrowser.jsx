@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import DocumentViewer from './DocumentViewer';
+import './DocumentBrowser.css';
 
 const documents = [
   {
@@ -47,17 +48,13 @@ function DocumentBrowser() {
   });
 
   return (
-    <div>
-      <div style={{ marginBottom: '1rem' }}>
+    <div className="browser-container">
+      <div className="toolbar">
         <button onClick={() => window.open('/export?format=pdf')}>Export PDF</button>
-        <button
-          onClick={() => window.open('/export?format=csv')}
-          style={{ marginLeft: '0.5rem' }}
-        >
-          Export CSV
-        </button>
+        <button onClick={() => window.open('/export?format=csv')}>Export CSV</button>
       </div>
-      <div style={{ marginBottom: '1rem' }}>
+
+      <div className="filters">
         <label>
           Type:
           <select name="type" value={filters.type} onChange={handleFilterChange}>
@@ -67,7 +64,7 @@ function DocumentBrowser() {
             <option value="image">Image</option>
           </select>
         </label>
-        <label style={{ marginLeft: '1rem' }}>
+        <label>
           Topic:
           <input
             type="text"
@@ -77,7 +74,7 @@ function DocumentBrowser() {
             placeholder="Topic"
           />
         </label>
-        <label style={{ marginLeft: '1rem' }}>
+        <label>
           Date:
           <input
             type="date"
@@ -88,35 +85,29 @@ function DocumentBrowser() {
         </label>
       </div>
 
-      <div style={{ marginBottom: '1rem' }}>
-        <button onClick={() => setView('list')}>List</button>
-        <button onClick={() => setView('grid')} style={{ marginLeft: '0.5rem' }}>
+      <div className="view-toggle">
+        <button
+          className={view === 'list' ? 'active' : ''}
+          onClick={() => setView('list')}
+        >
+          List
+        </button>
+        <button
+          className={view === 'grid' ? 'active' : ''}
+          onClick={() => setView('grid')}
+        >
           Grid
         </button>
       </div>
 
-      <div
-        style={
-          view === 'grid'
-            ? {
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))',
-                gap: '1rem'
-              }
-            : {}
-        }
-      >
+      <div className={`docs ${view === 'grid' ? 'grid' : ''}`}>
         {filteredDocs.map((doc) => (
           <div
             key={doc.id}
             onClick={() => setSelected(doc)}
-            style={{
-              border: '1px solid #ccc',
-              padding: '0.5rem',
-              cursor: 'pointer'
-            }}
+            className="doc-card"
           >
-            <strong>{doc.title}</strong>
+            <strong className="doc-title">{doc.title}</strong>
             <div>{doc.type.toUpperCase()}</div>
             <div>{doc.topic}</div>
             <div>{doc.date}</div>
