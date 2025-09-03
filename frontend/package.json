@@ -13,7 +13,9 @@
     "cytoscape": "^3.33.1",
     "leaflet": "^1.9.4",
     "leaflet.heat": "^0.2.0",
+    "moment": "^2.30.1",
     "react": "^19.1.1",
+    "react-calendar-timeline": "^0.30.0-beta.3",
     "react-dom": "^19.1.1",
     "react-leaflet": "^5.0.0"
   },
