@@ -15,6 +15,9 @@ from typing import List, Dict
 
 from bs4 import BeautifulSoup
 import pdfplumber
+import spacy
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.decomposition import LatentDirichletAllocation
 
 RESOURCE_DIRS: List[str] = ["ressources", "images"]
 TAG_KEYWORDS: List[str] = ["GATE", "MKULTRA"]
@@ -50,6 +53,22 @@ def extract_pdf_title(path: str) -> str:
     return os.path.basename(path)
 
 
+def extract_text(path: str) -> str:
+    """Extract plain text from HTML or PDF files."""
+    ext = os.path.splitext(path)[1].lower()
+    try:
+        if ext in {".html", ".htm"}:
+            with open(path, "r", encoding="utf-8", errors="ignore") as fh:
+                soup = BeautifulSoup(fh, "html.parser")
+                return soup.get_text(" ", strip=True)
+        if ext == ".pdf":
+            with pdfplumber.open(path) as pdf:
+                return "\n".join(page.extract_text() or "" for page in pdf.pages)
+    except Exception:
+        pass
+    return ""
+
+
 def hash_file(path: str) -> str:
     """Return the SHA256 digest of a file."""
     h = hashlib.sha256()
@@ -82,7 +101,11 @@ def build_metadata(path: str) -> Dict[str, str | List[str]]:
 
 
 def main() -> None:
+    nlp = spacy.load("en_core_web_sm")
+    nlp.max_length = 2_000_000
     records: List[Dict[str, str | List[str]]] = []
+    texts: List[str] = []
+    text_indices: List[int] = []
     for base in RESOURCE_DIRS:
         if not os.path.exists(base):
             continue
@@ -92,9 +115,33 @@ def main() -> None:
                 if ext in {".html", ".htm", ".pdf", ".jpg", ".jpeg", ".png", ".gif"}:
                     path = os.path.join(root, fname)
                     try:
-                        records.append(build_metadata(path))
+                        metadata = build_metadata(path)
+                        text = extract_text(path)
+                        if text:
+                            doc = nlp(text)
+                            metadata["entities"] = sorted({ent.text for ent in doc.ents})
+                            texts.append(text)
+                            text_indices.append(len(records))
+                        else:
+                            metadata["entities"] = []
+                        metadata["topics"] = []
+                        records.append(metadata)
                     except Exception as exc:
                         print(f"Skipping {path}: {exc}")
+    if texts:
+        vectorizer = CountVectorizer(stop_words="english")
+        dtm = vectorizer.fit_transform(texts)
+        if dtm.shape[1] > 0:
+            lda = LatentDirichletAllocation(n_components=5, random_state=0)
+            doc_topic = lda.fit_transform(dtm)
+            feature_names = vectorizer.get_feature_names_out()
+            topic_words = [
+                [feature_names[i] for i in topic.argsort()[:-6:-1]]
+                for topic in lda.components_
+            ]
+            for idx, dist in zip(text_indices, doc_topic):
+                top_topic = dist.argmax()
+                records[idx]["topics"] = topic_words[top_topic]
     os.makedirs("data", exist_ok=True)
     with open("data/index.json", "w", encoding="utf-8") as fh:
         json.dump(records, fh, indent=2, ensure_ascii=False)
