@@ -49,6 +49,15 @@ function DocumentBrowser() {
   return (
     <div>
       <div style={{ marginBottom: '1rem' }}>
+        <button onClick={() => window.open('/export?format=pdf')}>Export PDF</button>
+        <button
+          onClick={() => window.open('/export?format=csv')}
+          style={{ marginLeft: '0.5rem' }}
+        >
+          Export CSV
+        </button>
+      </div>
+      <div style={{ marginBottom: '1rem' }}>
         <label>
           Type:
           <select name="type" value={filters.type} onChange={handleFilterChange}>

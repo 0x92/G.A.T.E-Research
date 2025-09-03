@@ -1,3 +1,4 @@
 meilisearch>=0.31.1
 fastapi
 uvicorn[standard]
+fpdf2
