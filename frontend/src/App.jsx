@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import DocumentBrowser from './components/DocumentBrowser';
 import GlobalSearch from './components/GlobalSearch';
+import ConnectionsMap from './components/ConnectionsMap';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <h1>Document Browser</h1>
       <GlobalSearch />
       <DocumentBrowser />
+      <ConnectionsMap />
     </div>
   );
 }
