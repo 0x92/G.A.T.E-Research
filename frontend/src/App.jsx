@@ -3,6 +3,7 @@ import './App.css';
 import DocumentBrowser from './components/DocumentBrowser';
 import GlobalSearch from './components/GlobalSearch';
 import ConnectionsMap from './components/ConnectionsMap';
+import GeoMap from './components/GeoMap';
 
 function App() {
   return (
@@ -11,6 +12,25 @@ function App() {
       <GlobalSearch />
       <DocumentBrowser />
       <ConnectionsMap />
+      <GeoMap
+        locations={[
+          {
+            name: 'Berlin',
+            documents: [
+              { id: 1, title: 'Berlin Report' },
+              { id: 2, title: 'City History' },
+            ],
+          },
+          {
+            name: 'Paris',
+            documents: [{ id: 3, title: 'Paris Overview' }],
+          },
+          {
+            name: 'New York',
+            documents: [{ id: 4, title: 'NYC Document' }],
+          },
+        ]}
+      />
     </div>
   );
 }

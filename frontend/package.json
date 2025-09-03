@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "cytoscape": "^3.33.1",
+    "leaflet": "^1.9.4",
+    "leaflet.heat": "^0.2.0",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-leaflet": "^5.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
